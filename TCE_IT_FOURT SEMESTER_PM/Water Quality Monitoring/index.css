@@ -186,6 +186,10 @@ b1 {
 /*------------------------*/
 @media only screen and (max-width: 768px) {
   /*---Mobile Phone---*/
+  /*--------Index.html-------*/
+    title1 {
+        font-size: 20px;
+    }   
 }
 @media only screen and (min-width: 600px) {
   /*-----Tablet-----*/
