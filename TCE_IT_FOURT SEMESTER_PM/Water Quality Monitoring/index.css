@@ -190,6 +190,14 @@ b1 {
     title1 {
         font-size: 20px;
     }   
+    .tce_img {
+        top: 0;
+        left: 5px;
+    }
+    .tn_gov_img {    
+       top: 0;
+        right: 5px;
+    }
 }
 @media only screen and (min-width: 600px) {
   /*-----Tablet-----*/
