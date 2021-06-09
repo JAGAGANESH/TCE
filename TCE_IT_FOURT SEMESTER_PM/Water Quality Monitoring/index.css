@@ -221,6 +221,7 @@ b1 {
          padding: 5px;
     }
     .grid-item {
+        font-size: 10;
     }
     .arrow_mark {
         top: 68px;
