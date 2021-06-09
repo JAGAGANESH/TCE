@@ -258,25 +258,25 @@ b1 {
     }
     .box1 {
         top: 550px;
-        left: 10%;
+        left: 22.5%;
         width: 200px;
         height: 200px;
     }
     .box2 {
         top: 800px;
-        left: 15%;
+        left: 22.5%;
         width: 200px;
         height: 200px;
     }
     .box3 {
         top: 300px;
-        left: 20%;
+        left: 22.5%;
         width: 200px;
         height: 200px;
     }
     .box4 {
         top: 1050px;
-        left: 25%;
+        left: 22.5%;
         width: 200px;
         height: 200px;
     }
@@ -284,7 +284,7 @@ b1 {
         height: 55px;
     }
     .inner-box2 {
-        height: 145px;
+        height: 150px;
     }
 }
 @media only screen and (min-width: 600px) {
