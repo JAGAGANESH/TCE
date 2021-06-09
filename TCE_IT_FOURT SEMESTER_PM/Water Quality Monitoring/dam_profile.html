@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+<title>Dam Water Monitoring</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="index.css">
+<script src="index.js"></script>
+<script src="dams_data.js"></script>
+</head>
+<body>
+
+<title1>
+<t1><b>TAMILNADU WATER RESOURCE DEPARTMENT</b></t1></br>
+<t2 style="color:white;">Dam Water Monitor</t2>
+<img class="tce_img" src="Photos/tce_logo.png" width="110" height="95">
+<img class="tn_gov_img" src="Photos/tn_gov_logo.png" width="100" height="100">
+</title1>
+
+<title2>
+<t1><b id="DamName">Tamilanda Dam</b></t1>
+</title2>
+
+<table>
+  <tr style="height: 50px;font-size: 25px;background-color: #FFD700;color: red">
+    <th>RIVER</th>
+    <th>DISTRICT</th>
+  </tr>
+  <tr class="table_tr">
+    <td id="DamRiver"></td>
+    <td id="DamLocation"></td>
+  </tr>
+</table>
+
+<div class="box3">
+    <div class="inner-box1"><b1>Ph</b1></div>
+    <div class="inner-box2"><b1 id="DamPh"></b1></div>
+</div>
+<div class="box1">
+    <div class="inner-box1"><b1>Level</b1></div>
+    <div class="inner-box2"><b1 id="DamLevel"></b1></div>
+</div>
+<div class="box2">
+    <div class="inner-box1"><b1>Temperature</b1></div>
+    <div class="inner-box2"><b1 id="DamTemperature"></b1></div>
+</div>
+
+<div class="box4">
+    <div class="inner-box1"><b1>Flow</b1></div>
+    <div class="inner-box2"><b1 id="DamFlow"></b1></div>
+</div>
+
+<script>
+var name0=decodeURIComponent(window.location.search);
+name=name0.substring(1);
+ShowDamProfile(name)
+</script>
+</body>
+</html>
