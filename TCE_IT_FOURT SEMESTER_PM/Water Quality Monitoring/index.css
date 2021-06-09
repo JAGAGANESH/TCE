@@ -207,13 +207,13 @@ b1 {
         top: 25px;
         left: 5px;
         width: 55px;
-        height: 47px;
+        height: 45px;
     }
     .tn_gov_img {    
         top: 25px;
         right: 5px;
         width: 50px;
-        height: 40px;
+        height: 42px;
     }
     .grid-container {
          grid-gap: 35px 35px;
@@ -223,7 +223,14 @@ b1 {
     .grid-item {
     }
     .arrow_mark {
-        top: 75px;
+        top: 70px;
+    }
+    .sidenav {
+        top: 80px;
+        height: 5px;
+    }
+    .sidenav a {
+        font-size: 10px;
     }
 }
 @media only screen and (min-width: 600px) {
