@@ -256,6 +256,30 @@ b1 {
         height:60px;
         font-size: 15px;
     }
+    .box1 {
+        top: 550px;
+        left: 35%;
+        width: 200px;
+        height: 200px;
+    }
+    .box2 {
+        top: 800px;
+        right: 35%;
+        width: 200px;
+        height: 200px;
+    }
+    .box3 {
+        top: 300px;
+        left: 17.5%;
+        width: 200px;
+        height: 200px;
+    }
+    .box4 {
+        top: 1050px;
+        right: 17.5%;
+        width: 200px;
+        height: 200px;
+    }
 }
 @media only screen and (min-width: 600px) {
   /*-----Tablet-----*/
