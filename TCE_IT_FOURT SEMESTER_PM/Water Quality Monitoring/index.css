@@ -189,6 +189,7 @@ b1 {
   /*--------Index.html-------*/
     title1 {
         font-size: 20px;
+        height:70px;
     }   
     .tce_img {
         top: 30px;
@@ -205,9 +206,9 @@ b1 {
     .grid-container {
          grid-gap: 40px 40px;
          grid-template-columns: 150px 150px;
+         padding: 5px;
     }
     .grid-item {
-        padding: 10px;
     }
 }
 @media only screen and (min-width: 600px) {
