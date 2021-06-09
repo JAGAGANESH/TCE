@@ -248,6 +248,14 @@ b1 {
         margin-left:5%; 
         margin-right:5%;
     }
+    .table_tr1 {
+        height: 40px;
+        font-size: 15px;
+    }
+    .table_tr2 {
+        height:60px;
+        font-size: 20px;
+    }
 }
 @media only screen and (min-width: 600px) {
   /*-----Tablet-----*/
