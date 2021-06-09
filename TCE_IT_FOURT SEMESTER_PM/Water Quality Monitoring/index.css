@@ -191,21 +191,21 @@ b1 {
         font-size: 20px;
     }   
     .tce_img {
-        top: 0;
+        top: 50%;
         left: 5px;
         width: 55px;
         height: 47.5px;
     }
     .tn_gov_img {    
-       top: 0;
+        top: 15px;
         right: 5px;
         width: 50px;
         height: 40px;
     }
-
     .grid-container {
          grid-gap: 50px 50px;
          grid-template-columns: 150px 150px;
+         padding: 25px;
     }
     .grid-item {
     }
