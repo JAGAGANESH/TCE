@@ -62,7 +62,13 @@ table, th, td {
   border-collapse: collapse;
   text-align: center;
 }
-.table_tr {
+.table_tr1 {
+    height: 50px;
+    font-size: 25px;
+    background-color: #FFD700;
+    color: red;
+}
+.table_tr2 {
     height:75px;
     font-size: 30px;
     color: #1E90FF;
