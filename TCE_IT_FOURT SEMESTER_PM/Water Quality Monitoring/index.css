@@ -223,14 +223,17 @@ b1 {
     .grid-item {
     }
     .arrow_mark {
-        top: 70px;
+        top: 68px;
     }
     .sidenav {
         top: 80px;
         height: 5px;
     }
     .sidenav a {
-        font-size: 10px;
+        font-size: 15px;
+    }
+    .sidenav .closebtn {
+        font-size: 15px;
     }
 }
 @media only screen and (min-width: 600px) {
