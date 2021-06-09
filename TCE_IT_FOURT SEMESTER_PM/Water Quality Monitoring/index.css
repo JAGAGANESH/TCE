@@ -236,6 +236,12 @@ b1 {
     .sidenav .closebtn {
         font-size: 15px;
     }
+    table {
+        top: 150px;
+        width:90%;
+        margin-left:5%; 
+        margin-right:5%;
+    }
 }
 @media only screen and (min-width: 600px) {
   /*-----Tablet-----*/
