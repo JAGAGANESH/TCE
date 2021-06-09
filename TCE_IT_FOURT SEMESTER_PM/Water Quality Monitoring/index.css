@@ -207,7 +207,7 @@ b1 {
         top: 25px;
         left: 5px;
         width: 55px;
-        height: 47.5px;
+        height: 47px;
     }
     .tn_gov_img {    
         top: 25px;
@@ -223,7 +223,7 @@ b1 {
     .grid-item {
     }
     .arrow_mark {
-        top: 80px;
+        top: 75px;
     }
 }
 @media only screen and (min-width: 600px) {
