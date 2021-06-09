@@ -191,7 +191,7 @@ b1 {
         font-size: 20px;
     }   
     .tce_img {
-        top: 50px;
+        top: 30px;
         left: 5px;
         width: 55px;
         height: 47.5px;
@@ -203,11 +203,11 @@ b1 {
         height: 40px;
     }
     .grid-container {
-         grid-gap: 50px 50px;
+         grid-gap: 40px 40px;
          grid-template-columns: 150px 150px;
-         padding: 0px;
     }
     .grid-item {
+        padding: 10px;
     }
 }
 @media only screen and (min-width: 600px) {
