@@ -193,10 +193,14 @@ b1 {
     .tce_img {
         top: 0;
         left: 5px;
+        width: 55;
+        height: 47.5;
     }
     .tn_gov_img {    
        top: 0;
         right: 5px;
+        width: 50;
+        height: 40;
     }
 }
 @media only screen and (min-width: 600px) {
