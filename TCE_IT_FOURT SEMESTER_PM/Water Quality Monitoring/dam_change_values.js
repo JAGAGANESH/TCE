@@ -1,16 +1,19 @@
 function RepeatChangeFunction(DamNumber) {
-    setInterval(ChangeValues(DamNumber), 10000);
+    setInterval(ChangeValues_SendToDatabase(DamNumber), 10000);
 }
 
-function ChangeValues(DamNumber) {
+function ChangeValues_SendToDatabase(DamNumber) {
+    var dam_name = Data[DamNumber].Name;
     var new_dam_ph = RandomValue_Ph();
     var new_dam_level = RandomValue_Level();
     var new_dam_temperature = RandomValue_Temperature();
-    var new_dam_flow = RandomValue_Flow();
-    dam_data[DamNumber].Data.Ph = new_dam_ph;
-    dam_data[DamNumber].Data.Level = new_dam_level;
-    dam_data[DamNumber].Data.Temperature = new_dam_temperature;
-    dam_data[DamNumber].Data.Flow = new_dam_flow;
+    var new_dam_flow = RandomValue_Flow()
+    firebase.database().ref("Fourth Semester/Project Management/Water Quality Management/TN DAMS/"+dam_name).set({
+        Ph: new_dam_ph,
+        Level: new_dam_level,
+        Temperature: new_dam_temperature,
+        Flow: new_dam_flow,
+    });
 }
 
 function RandomValue_Ph() {
