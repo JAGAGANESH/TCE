@@ -10,8 +10,8 @@ function ShowDamProfile(DamNumber) {
     var dam_location = dam_data[DamNumber].Location;
     var dam_ph = dam_data[DamNumber].Data.Ph;
     var dam_level = dam_data[DamNumber].Data.Level;
-    var dam_temperature = dam_data[DamNumber].Data.Ph;
-    var dam_flow = dam_data[DamNumber].Data.Level;
+    var dam_temperature = dam_data[DamNumber].Data.Temperature;
+    var dam_flow = dam_data[DamNumber].Data.Flow;
     document.getElementById("DamName").innerHTML = dam_name;
     document.getElementById("DamRiver").innerHTML = dam_river;
     document.getElementById("DamLocation").innerHTML = dam_location;
@@ -27,8 +27,8 @@ function ListOfDamsData() {
         var dam_location = dam_data[i].Location;
         var dam_ph = dam_data[i].Data.Ph;
         var dam_level = dam_data[i].Data.Level;
-        var dam_temperature = dam_data[i].Data.Ph;
-        var dam_flow = dam_data[i].Data.Level;
+        var dam_temperature = dam_data[i].Data.Temperature;
+        var dam_flow = dam_data[i].Data.Flow;
         document.getElementById("DamsData").innerHTML += "<tr class='table_tr2'><td>"+dam_name+"</td><td>"+dam_river+"</td><td>"+dam_location+"</td><td>"+dam_ph+"</td><td>"+dam_level+"</td><td>"+dam_temperature+"</td><td>"+dam_flow+"</td></tr>";
     }
 }
