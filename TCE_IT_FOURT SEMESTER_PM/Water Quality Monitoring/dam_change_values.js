@@ -3,7 +3,7 @@ function RepeatChangeFunction(DamNumber) {
 }
 
 function ChangeValues_SendToDatabase(DamNumber) {
-    var dam_name = Data[DamNumber].Name;
+    var dam_name = dam_data[DamNumber].Name;
     var new_dam_ph = RandomValue_Ph();
     var new_dam_level = RandomValue_Level();
     var new_dam_temperature = RandomValue_Temperature();
