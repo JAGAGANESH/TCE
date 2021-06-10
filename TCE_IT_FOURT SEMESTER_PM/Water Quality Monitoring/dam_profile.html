@@ -66,6 +66,8 @@
 var name0=decodeURIComponent(window.location.search);
 name=name0.substring(1);
 ShowDamProfile(name);
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();
 ChangeValues_SendToDatabase(name);
 </script>
 </body>
