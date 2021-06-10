@@ -1,5 +1,6 @@
 function RepeatChangeFunction(DamNumber) {
-    setInterval(ChangeValues_SendToDatabase(DamNumber), 5000);
+    ChangeValues_SendToDatabase(DamNumber);
+    setInterval(RepeatChangeFunction(DamNumber), 10000);
 }
 
 function ChangeValues_SendToDatabase(DamNumber) {
