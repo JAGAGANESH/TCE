@@ -1,6 +1,5 @@
-function RepeatChangeFunction(DamNumber) {
-    ChangeValues_SendToDatabase(DamNumber);
-    setInterval(RepeatChangeFunction(DamNumber), 10000);
+function RepeatChangeFunction(DamNumber) {    
+    setInterval(ChangeValues_SendToDatabase(DamNumber), 10000);
 }
 
 function ChangeValues_SendToDatabase(DamNumber) {
@@ -15,6 +14,7 @@ function ChangeValues_SendToDatabase(DamNumber) {
         Temperature: new_dam_temperature,
         Flow: new_dam_flow,
     });
+    setInterval(ChangeValues_SendToDatabase, 10000);
 }
 
 function RandomValue_Ph() {
