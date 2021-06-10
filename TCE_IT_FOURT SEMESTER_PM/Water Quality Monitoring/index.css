@@ -262,11 +262,11 @@ b1 {
     .table1 {
         top: 160px;
         left: -9px;
-        width:200px;
+        width:100%;
     }
     .table_tr1 {
         height: 40px;
-        font-size: 10px;
+        font-size: 15px;
     }
     .table_tr2 {
         height:60px;
@@ -274,7 +274,7 @@ b1 {
     }
     .table_tr3 {
         height: 40px;
-        font-size: 5px;
+        font-size: 10px;
     }
     .table_tr4 {
         height:60px;
