@@ -250,8 +250,8 @@ b1 {
     }
     .table1 {
         top: 160px;
-        left: 0px;
-        width:50%;
+        left: -10px;
+        width:500px;
     }
     .table_tr1 {
         height: 40px;
