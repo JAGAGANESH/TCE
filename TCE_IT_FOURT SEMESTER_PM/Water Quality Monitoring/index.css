@@ -248,6 +248,12 @@ b1 {
         margin-left:5%; 
         margin-right:5%;
     }
+    .table1 {
+        top: 160px;
+        width:95%;
+        margin-left:2.5%; 
+        margin-right:2.5%;
+    }
     .table_tr1 {
         height: 40px;
         font-size: 10px;
