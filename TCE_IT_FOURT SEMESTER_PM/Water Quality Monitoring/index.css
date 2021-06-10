@@ -250,6 +250,7 @@ b1 {
     }
     .table1 {
         top: 160px;
+        left: 0px;
         width:100%;
     }
     .table_tr1 {
