@@ -147,7 +147,18 @@ b1 {
     margin-left:2.5%; 
     margin-right:2.5%;
 }
-
+.table_tr3 {
+    height: 50px;
+    font-size: 25px;
+    background-color: #FFD700;
+    color: red;
+}
+.table_tr4 {
+    height:75px;
+    font-size: 30px;
+    color: #1E90FF;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+}
 
 
 
@@ -260,6 +271,14 @@ b1 {
     .table_tr2 {
         height:60px;
         font-size: 15px;
+    }
+    .table_tr3 {
+        height: 40px;
+        font-size: 5px;
+    }
+    .table_tr4 {
+        height:60px;
+        font-size: 10px;
     }
     .box1 {
         top: 550px;
