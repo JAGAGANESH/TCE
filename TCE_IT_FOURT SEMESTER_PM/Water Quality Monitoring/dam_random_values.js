@@ -3,10 +3,10 @@ function Change10Seconds() {
 }
 
 function RandomValues_ChangeValues() {
-    var old_dam_ph = dam_data[i].Ph;
-    var old_dam_level = dam_data[i].Level; 
-    var old_dam_temperature = dam_data[i].Temperature;
-    var old_dam_flow = dam_data[i].Flow;
+    var old_dam_ph = dam_data[i].Data.Ph;
+    var old_dam_level = dam_data[i].Data.Level; 
+    var old_dam_temperature = dam_data[i].Data.Temperature;
+    var old_dam_flow = dam_data[i].Data.Flow;
     var new_dam_ph = 100;
     var new_dam_level = 100;
     var new_dam_temperature = 100;
