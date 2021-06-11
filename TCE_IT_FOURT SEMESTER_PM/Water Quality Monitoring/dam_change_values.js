@@ -12,7 +12,7 @@ function ChangeValues_SendToDatabase() {
     var new_dam_ph = RandomValue_Ph();
     var new_dam_level = RandomValue_Level();
     var new_dam_temperature = RandomValue_Temperature();
-    var new_dam_flow = RandomValue_Flow()
+    var new_dam_flow = RandomValue_Flow();
     firebase.database().ref("Fourth Semester/Project Management/Water Quality Management/TN DAMS/"+dam_name).set({
         Ph: new_dam_ph,
         Level: new_dam_level,
@@ -27,7 +27,7 @@ function ChangeAllValues_SendToDatabase() {
         var new_dam_ph = RandomValue_Ph();
         var new_dam_level = RandomValue_Level();
         var new_dam_temperature = RandomValue_Temperature();
-        var new_dam_flow = RandomValue_Flow()
+        var new_dam_flow = RandomValue_Flow();
         firebase.database().ref("Fourth Semester/Project Management/Water Quality Management/TN DAMS/"+dam_name).set({
             Ph: new_dam_ph,
             Level: new_dam_level,
