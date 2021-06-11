@@ -1,9 +1,10 @@
-function RepeatChangeFunction(DamNumber) {    
-    setInterval(ChangeValues_SendToDatabase(DamNumber), 10000);
+function RepeatChangeFunction() {    
+    ChangeValues_SendToDatabase();
+    setInterval(RepeatChangeFunction, 10000);
 }
 
-function ChangeValues_SendToDatabase(DamNumber) {
-    var dam_name = dam_data[DamNumber].Name;
+function ChangeValues_SendToDatabase() {
+    var dam_name = dam_data[name].Name;
     var new_dam_ph = RandomValue_Ph();
     var new_dam_level = RandomValue_Level();
     var new_dam_temperature = RandomValue_Temperature();
@@ -14,7 +15,6 @@ function ChangeValues_SendToDatabase(DamNumber) {
         Temperature: new_dam_temperature,
         Flow: new_dam_flow,
     });
-    setInterval(ChangeValues_SendToDatabase(DamNumber), 10000);
 }
 
 function RandomValue_Ph() {
