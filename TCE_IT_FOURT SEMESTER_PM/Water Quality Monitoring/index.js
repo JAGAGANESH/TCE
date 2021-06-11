@@ -22,7 +22,8 @@ function ShowDamProfile() {
 */
 }
 function ListOfDamsData() {
-    for(i=0;i<dam_data.length;i++) {
+ /* 
+     for(i=0;i<dam_data.length;i++) {
         var dam_name = dam_data[i].Name;
         var dam_river = dam_data[i].River;
         var dam_location = dam_data[i].Location;
@@ -32,6 +33,7 @@ function ListOfDamsData() {
         var dam_flow = dam_data[i].Data.Flow;
         document.getElementById("DamsData").innerHTML += "<tr class='table_tr4'><td>"+dam_name+"</td><td>"+dam_river+"</td><td>"+dam_location+"</td><td>"+dam_ph+"</td><td>"+dam_level+"</td><td>"+dam_temperature+"</td><td>"+dam_flow+"</td></tr>";
     }
+*/
 }
 
 
