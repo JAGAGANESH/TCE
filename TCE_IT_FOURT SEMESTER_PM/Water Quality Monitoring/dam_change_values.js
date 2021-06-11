@@ -4,7 +4,7 @@ function RepeatChangeFunction() {
 }
 function RepeatChangeAllFunction() {    
     ChangeAllValues_SendToDatabase();
-    setInterval(RepeatChangeAllFunction, 30000);
+    setInterval(RepeatChangeAllFunction, 20000);
 }
 
 function ChangeValues_SendToDatabase() {
