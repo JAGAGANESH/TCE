@@ -58,10 +58,6 @@ function GetData_SetData() {
     var DataLocation = firebase.database().ref('Fourth Semester/Project Management/Water Quality Management/TN DAMS/'+dam_name);
     DataLocation.on('value', function(snapshot) {
         var data = snapshot.val();
-        var dam_ph = ;
-        var dam_level = data.Level;
-        var dam_temperature = data.Temperature;
-        var dam_flow = data.Flow;
         document.getElementById("DamPh").innerHTML = data.Ph;
         document.getElementById("DamLevel").innerHTML = data.Level;
         document.getElementById("DamTemperature").innerHTML = data.Temperature;
