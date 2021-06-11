@@ -1,5 +1,5 @@
 function ListDams() {
-    for(i=0;i<=dam_data.length;i++) {
+    for(i=0;i<dam_data.length;i++) {
         var dam_name = dam_data[i].Name;
         document.getElementById("ListDams").innerHTML += "<a class='grid-item' href='dam_profile.html?"+i+"'><b>"+dam_name+"</b></a>";
     }
@@ -21,7 +21,7 @@ function ShowDamProfile(DamNumber) {
     document.getElementById("DamFlow").innerHTML = dam_flow;
 }
 function ListOfDamsData() {
-    for(i=0;i<=dam_data.length;i++) {
+    for(i=0;i<dam_data.length;i++) {
         var dam_name = dam_data[i].Name;
         var dam_river = dam_data[i].River;
         var dam_location = dam_data[i].Location;
