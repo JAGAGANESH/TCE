@@ -65,5 +65,15 @@ function GetData_SetData() {
     })
 }
 
+function GetAllData_SetData() {
+    for(i=0;i<dam_data.length;i++) {
+        var dam_name = dam_data[i].Name;    
+        var DataLocation = firebase.database().ref('Fourth Semester/Project Management/Water Quality Management/TN DAMS/'+dam_name);
+        DataLocation.on('value', function(snapshot) {
+            var data = snapshot.val();
+            document.getElementById("DamsData").innerHTML += "<tr class='table_tr4'><td>"+dam_name+"</td><td>"+data.Ph+"</td><td>"+data.Level+"</td><td>"+data.Temperature+"</td><td>"+data.Flow+"</td></tr>";
+        })
+    }
+}
 
 
