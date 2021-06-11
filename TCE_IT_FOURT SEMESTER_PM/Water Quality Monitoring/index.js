@@ -4,21 +4,22 @@ function ListDams() {
         document.getElementById("ListDams").innerHTML += "<a class='grid-item' href='dam_profile.html?"+i+"'><b>"+dam_name+"</b></a>";
     }
 }
-function ShowDamProfile(DamNumber) {
-    var dam_name = dam_data[DamNumber].Name;
-    var dam_river = dam_data[DamNumber].River;
-    var dam_location = dam_data[DamNumber].Location;
-    var dam_ph = dam_data[DamNumber].Data.Ph;
-    var dam_level = dam_data[DamNumber].Data.Level;
-    var dam_temperature = dam_data[DamNumber].Data.Temperature;
-    var dam_flow = dam_data[DamNumber].Data.Flow;
+function ShowDamProfile() {
+    var dam_name = dam_data[name].Name;
+    var dam_river = dam_data[name].River;
+    var dam_location = dam_data[name].Location;
     document.getElementById("DamName").innerHTML = dam_name;
     document.getElementById("DamRiver").innerHTML = dam_river;
     document.getElementById("DamLocation").innerHTML = dam_location;
+/*  var dam_ph = dam_data[name].Data.Ph;
+    var dam_level = dam_data[name].Data.Level;
+    var dam_temperature = dam_data[name].Data.Temperature;
+    var dam_flow = dam_data[name].Data.Flow;
     document.getElementById("DamPh").innerHTML = dam_ph;
     document.getElementById("DamLevel").innerHTML = dam_level;
     document.getElementById("DamTemperature").innerHTML = dam_temperature;
     document.getElementById("DamFlow").innerHTML = dam_flow;
+*/
 }
 function ListOfDamsData() {
     for(i=0;i<dam_data.length;i++) {
