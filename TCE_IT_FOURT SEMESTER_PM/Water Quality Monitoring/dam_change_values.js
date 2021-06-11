@@ -22,7 +22,7 @@ function ChangeValues_SendToDatabase() {
 }
 
 function ChangeAllValues_SendToDatabase() {
-    for(i=0;i<=dam_data.length;i++) {
+    for(i=0;i<dam_data.length;i++) {
         var dam_name = dam_data[i].Name;
         var new_dam_ph = RandomValue_Ph();
         var new_dam_level = RandomValue_Level();
