@@ -37,11 +37,11 @@ function ChangeAllValues_SendToDatabase() {
     }
 }
 function RandomValue_Ph() {
-    var rv_ph = Math.floor(Math.random() * 1000) + 500;
+    var rv_ph = Math.floor(Math.random() * 14) + 0;
     return rv_ph;
 }
 function RandomValue_Level() {
-    var rv_level = Math.floor(Math.random() * 10000) + 5000;
+    var rv_level = Math.floor(Math.random() * 500) + 100;
     return rv_level;
 }
 function RandomValue_Temperature() {
@@ -49,7 +49,7 @@ function RandomValue_Temperature() {
     return rv_temperature;
 }
 function RandomValue_Flow() {
-    var rv_flow = Math.floor(Math.random() * 500) + 100;
+    var rv_flow = Math.floor(Math.random() * 300) + 100;
     return rv_flow;
 }
 
