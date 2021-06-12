@@ -76,4 +76,9 @@ function GetAllData_SetData() {
     }
 }
 
+function SetListTableId() {
+    for(i=0;i<dam_data.length;i++) {
+        document.getElementById("DamsData").innerHTML += "<tr class='table_tr4'><td id="dam_id"+i+"_name"></td><td id="dam_id"+i+"_ph"></td><td id="dam_id"+i+"_level"></td><td id="dam_id"+i+"_temperature"></td><td id="dam_id"+i+"_flow"></td></tr>";
+    }
+}
 
