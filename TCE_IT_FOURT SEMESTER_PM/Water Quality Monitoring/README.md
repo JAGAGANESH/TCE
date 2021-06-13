@@ -3,7 +3,19 @@ Dams play a crucial role in water supply. Water resources plays important roles 
 ## Implementation
 ### Tools
 #### Hardware
+<ul>
+  <li><b>Ph Sensor</b> - Calculate Ph of water</li>
+  <li><b>Temperature Sensor</b> - Calculate Temperature of water</li>
+  <li><b>Optical Sensors</b> - Calculate Flow and Level of Dam</li>
+  <li><b>Computer Chip</b> - Collects all data and send to transmiter</li>
+  <li><b>Transmitter</b> - Sends the data to the Database</li>
+</ul>  
 #### Software
+<ul>
+  <li><b>Notepad</b> - Designing and Creating Webpages</li>
+  <li><b>Github</b> - Hosting the Webpages</li>
+  <li><b>Firebase</b> - Real Time Database</li>
+</ul> 
 ### Hardware Architechture
 ## Prototype
 https://jagaganesh.github.io/TCE/TCE_IT_FOURT%20SEMESTER_PM/Water%20Quality%20Monitoring/
