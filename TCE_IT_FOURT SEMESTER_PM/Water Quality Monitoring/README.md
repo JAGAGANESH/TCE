@@ -4,7 +4,7 @@ Dams play a crucial role in water supply. Water resources plays important roles 
 <p align="center"><img src="Photos/DJ_PM_Project_Implementation.png"></p>
 
 ### Tools
-<b style="font-size: 30px;">&raquo;  Hardware</b>
+<b style="font-size: 30px;">&raquo</b>
 <ul>
   <li><b>Ph Sensor</b> - Calculate Ph of water</li>
   <li><b>Temperature Sensor</b> - Calculate Temperature of water</li>
