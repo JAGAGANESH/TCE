@@ -28,7 +28,3 @@ https://jagaganesh.github.io/TCE/TCE_IT_FOURT%20SEMESTER_PM/Water%20Quality%20Mo
 
 ## About Us
 This project was done by <b>JagaGanesh D</b>, <b>Lokkeswaran S</b> and <b>Velmurugan M</b>. We are students of IT Department from Thiagarajar College of Engineering, Madurai. This project inspired by Project Management the course belongs to Second Year Fourt Semester of IT department (January 2021 - May 2021).
-
-span {
-  font-size: 75;
-}
