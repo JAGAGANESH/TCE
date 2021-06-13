@@ -4,7 +4,7 @@ Dams play a crucial role in water supply. Water resources plays important roles 
 <p align="center"><img src="Photos/DJ_PM_Project_Implementation.png"></p>
 
 ### Tools
-<b style="font-size: 50px;">&raquo;</b>
+<h3 style="font-size: 50px;">&raquo;  Hardware</h3>
 <ul>
   <li><b>Ph Sensor</b> - Calculate Ph of water</li>
   <li><b>Temperature Sensor</b> - Calculate Temperature of water</li>
@@ -13,7 +13,7 @@ Dams play a crucial role in water supply. Water resources plays important roles 
   <li><b>Transmitter</b> - Sends the data to the Database</li>
 </ul>
 
-#### Software
+<h3 style="font-size: 50px;">&raquo;  Software</h3>
 <ul>
   <li><b>Notepad</b> - Designing and Creating Webpages</li>
   <li><b>Github</b> - Hosting the Webpages</li>
@@ -29,3 +29,6 @@ https://jagaganesh.github.io/TCE/TCE_IT_FOURT%20SEMESTER_PM/Water%20Quality%20Mo
 ## About Us
 This project was done by <b>JagaGanesh D</b>, <b>Lokkeswaran S</b> and <b>Velmurugan M</b>. We are students of IT Department from Thiagarajar College of Engineering, Madurai. This project inspired by Project Management the course belongs to Second Year Fourt Semester of IT department (January 2021 - May 2021).
 
+span {
+  font-size: 75;
+}
