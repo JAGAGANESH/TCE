@@ -9,7 +9,8 @@ Dams play a crucial role in water supply. Water resources plays important roles 
   <li><b>Optical Sensors</b> - Calculate Flow and Level of Dam</li>
   <li><b>Computer Chip</b> - Collects all data and send to transmiter</li>
   <li><b>Transmitter</b> - Sends the data to the Database</li>
-</ul>  
+</ul>
+
 #### Software
 <ul>
   <li><b>Notepad</b> - Designing and Creating Webpages</li>
