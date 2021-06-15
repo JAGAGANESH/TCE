@@ -26,5 +26,8 @@ Dams play a crucial role in water supply. Water resources plays important roles 
 ## Prototype
 https://jagaganesh.github.io/TCE/TCE_IT_FOURT%20SEMESTER_PM/Water%20Quality%20Monitoring/
 
+###Stimulation
+    => https://www.tinkercad.com/things/9E8cdLTm3De-water-quality-monitor/editel?sharecode=REdZF-S6RcKmIQKf4jpxHuw-JBuGyy1rG2l0ghVlF9c
+
 ## About Us
 This project was done by <b>JagaGanesh D</b>, <b>Lokkeswaran S</b> and <b>Velmurugan M</b>. We are students of IT Department from Thiagarajar College of Engineering, Madurai. This project inspired by Project Management the course belongs to Second Year Fourt Semester of IT department (January 2021 - May 2021).
