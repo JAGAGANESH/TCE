@@ -14,6 +14,19 @@ include("ConnectToDatabase.php");
 <t1><b>TOLL TAX MANAGEMENT SYSTEM</b></t1></br>
 <t2 style="color:white;font-size:30px;">Department of Transport Service</t2>
 </title1>
-
+<div class="container">
+      <label for="uname"><b>Vehicle Id</b></label>
+      <input type="text" placeholder="Enter User Id" name="uname" id="uname" required>
+      <label for="psw"><b>Branch</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+      <label for="uname"><b>Status</b></label>
+      <input type="text" placeholder="Enter User Id" name="uname" id="uname" required>
+      <label for="psw"><b>Payment Id</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+      <label for="uname"><b>Mode of Payment</b></label>
+      <input type="text" placeholder="Enter User Id" name="uname" id="uname" required>
+      <label for="psw"><b>Amount</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+      
 </body>
 </html>
