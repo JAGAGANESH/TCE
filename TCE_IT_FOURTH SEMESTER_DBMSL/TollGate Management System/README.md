@@ -11,5 +11,13 @@ Our Application is Toll Gate Management System. This Application can provide all
   <b>6. Start working with TollGate Management System.</b>
 </ul>
 
+## Working
+<ul type="square">
+  <li>About Us Page</li>
+  The About us page describes the mini project briefly and mentions the developers of the project.
+  <p align="center"><img src="Photos/Working_Photos/1.png"></p>
+  <li style='content: "\25BA \0020"';>If we click GET STARTED Button it go to Index Page.</li>
+</ul>
+
 ## About Us
 This project was done by <b>JagaGanesh D</b>, <b>Lokkeswaran S</b> and <b>Velmurugan M</b>. We are students of IT Department from Thiagarajar College of Engineering, Madurai. This project inspired by Database Management System the course belongs to Second Year Fourt Semester of IT department (January 2021 - May 2021).
