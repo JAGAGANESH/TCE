@@ -16,7 +16,10 @@ Our Application is Toll Gate Management System. This Application can provide all
   <li>About Us Page</li>
   The About us page describes the mini project briefly and mentions the developers of the project.
   <p align="center"><img src="Photos/Working_Photos/1.png"></p>
-  <li style='content: "\25BA \0020"';>If we click GET STARTED Button it go to Index Page.</li>
+  
+  <li>Index / Login Page</li>
+  
+  <li>Home / Vehicles entry Page</li>
 </ul>
 
 ## About Us
