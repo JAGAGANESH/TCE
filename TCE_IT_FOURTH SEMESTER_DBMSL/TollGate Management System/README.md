@@ -3,12 +3,12 @@ Our Application is Toll Gate Management System. This Application can provide all
 
 ## Implementation
 <ul>
-  <b>Install Oracle Database 19c and create tables and rows with respect to the Tollgate management system.</b>
-  <b>Install Oracle Instant Client 19 and set the path respectively to access data from database to server.</b>
-  <b>Install Xampp Server to perform localhost server.</b>
-  <b>Connect Xampp Apache php configuration to Oracle Instant Client 19.</b>
-  <b>Design Website using html, css, javascript and php with accessing the database.</b>
-  <b>Start working with TollGate Management System.</b>
+  <b>1. Install Oracle Database 19c and create tables and rows with respect to the Tollgate management system.</b></br>
+  <b>2. Install Oracle Instant Client 19 and set the path respectively to access data from database to server.</b></br>
+  <b>3. Install Xampp Server to perform localhost server.</b></br>
+  <b>4. Connect Xampp Apache php configuration to Oracle Instant Client 19.</b></br>
+  <b>5. Design Website using html, css, javascript and php with accessing the database.</b></br>
+  <b>6. Start working with TollGate Management System.</b>
 </ul>
 
 ## About Us
