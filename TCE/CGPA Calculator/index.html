@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+<title>TCE CGPA</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+h2 {
+	text-align: center;
+	color: red;
+}
+input[type='number'] {
+	width:80%;
+	height:30px;
+}
+img {
+	width: 20%;
+	cursor: pointer;
+	background-color: orange;
+}
+select {
+	width: 50%;
+	height:30px;
+}
+Button {
+	background-color: orange;
+	border-radius: 5px;
+	height: 40px;
+	width: 100px;
+	font-size: 18px;
+}
+
+#demo {
+}
+#answer {
+	background-color: green;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+}
+</style>
+<body>
+	<h2>TCE GPA CALCULATOR</h2>
+	<fieldset>
+		<legend><b>No of Courses</b></legend>
+		<input type="number" name="noc" placeholder="Enter No of Courses " id="noc">
+		<img src="send_logo.png" onclick="func()">
+	</fieldset>
+	</br>
+
+	<fieldset id="demo">
+		
+	</fieldset></br>
+    <div id="answer"></div>
+<script>
+function func() {
+	var noc = parseInt(document.getElementById("noc").value);
+	document.getElementById("demo").innerHTML = "";
+	for(i =0; i<noc; i++) {
+	    document.getElementById("demo").innerHTML += '<select name="grade_s'+i+'" id="grade_s'+i+'"><option value=" " disabled selected>Choose your grade</option><option value=10>S</option><option value=9>A</option><option value=8>B</option><option value=7>C</option><option value=6>D</option></select><select name="credit_s'+i+'" id="credit_s'+i+'"><option value=" " disabled selected>Choose no of Credit</option><option value=1>1</option><option value=2>2</option><option value=3>3</option><option value=4>4</option><option value=5>5</option><option value=6>6</option></select></br></br>';
+	}
+	document.getElementById("demo").innerHTML += '<center><button onclick="func1()"><b>Calculate</b></button></center>';
+}
+function func1() {
+	var noc = parseInt(document.getElementById("noc").value);
+	var TotalCredit = 0;
+	for(i=0;i<noc;i++) {
+		TotalCredit += parseInt(document.getElementById("credit_s"+i).value);
+	}
+	var noc = parseInt(document.getElementById("noc").value);
+	var SumOfCG = 0;
+	for(i=0;i<noc;i++) {
+		var CreditValue = parseInt(document.getElementById("credit_s"+i).value);
+		var GradeValue = parseInt(document.getElementById("grade_s"+i).value);
+		var CG_Value = CreditValue*GradeValue;
+		SumOfCG += parseInt(CG_Value);
+	}
+	var gpa = SumOfCG/TotalCredit;
+	document.getElementById("answer").innerHTML = gpa.toFixed(2);
+}
+</script>
+</body>
+</html>
