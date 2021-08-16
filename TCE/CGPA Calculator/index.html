@@ -18,7 +18,7 @@ img {
 	height: 30px;
 	cursor: pointer;
 	position: absolute;
-	right: 10px;
+	padding: 5px;
 }
 select {
 	width: 50%;
@@ -44,7 +44,6 @@ fieldset {
 	position: relative
 }
 #inputs {
-	display: none;
 }
 </style>
 <body>
@@ -62,7 +61,6 @@ fieldset {
     <div id="answer"></div>
 <script>
 function func() {
-	document.getElementById("inputs").style.display = "block";
 	var noc = parseInt(document.getElementById("noc").value);
 	document.getElementById("demo").innerHTML = "";
 	for(i =0; i<noc; i++) {
