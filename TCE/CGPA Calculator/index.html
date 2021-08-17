@@ -64,7 +64,7 @@ function func() {
         document.getElementById("inputs").innerHTML = "";
 	var noc = parseInt(document.getElementById("noc").value);
 	for(i =0; i<noc; i++) {
-	    document.getElementById("inputs").innerHTML += '<select name="grade_s'+i+'" id="grade_s'+i+'"><option value=" " disabled selected>Choose your grade</option><option value=10>S</option><option value=9>A</option><option value=8>B</option><option value=7>C</option><option value=6>D</option></select><select name="credit_s'+i+'" id="credit_s'+i+'"><option value=" " disabled selected>Choose no of Credit</option><option value=1>1</option><option value=2>2</option><option value=3>3</option><option value=4>4</option><option value=5>5</option><option value=6>6</option></select></br></br>';
+	    document.getElementById("inputs").innerHTML += '<select name="grade_s'+i+'" id="grade_s'+i+'"><option value=" " disabled selected>Choose your grade</option><option value=10>S</option><option value=9>A</option><option value=8>B</option><option value=7>C</option><option value=6>D</option>option value=0>U</option></select><select name="credit_s'+i+'" id="credit_s'+i+'"><option value=" " disabled selected>Choose no of Credit</option><option value=1>1</option><option value=2>2</option><option value=3>3</option><option value=4>4</option><option value=5>5</option><option value=6>6</option></select></br></br>';
 	}
 	document.getElementById("inputs").innerHTML += '<center><button onclick="func1()"><b>Calculate</b></button></center>';
 }
