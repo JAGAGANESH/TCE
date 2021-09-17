@@ -15,7 +15,7 @@ An problem arises when he/she don't aware of local transport for their travel, N
 <b>
 <ul type="square">
   <li>Start Running Application</li>
-    <p align="center"><img src="Photos/Working_Photos/1.png"></p>
+    <p align="center"><img src="Photos/Working_Photos/1.png" width=360 height=760></p>
   </br>
   <li>Welcome Page</li>
     <p align="center"><img src="Photos/Working_Photos/2.png"></p>
