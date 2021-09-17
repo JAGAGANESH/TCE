@@ -18,7 +18,7 @@ An problem arises when he/she don't aware of local transport for their travel, N
     <p align="center"><img src="Photos/Working_Photos/1.png" width=360 height=760></p>
   </br>
   <li>Welcome Page</li>
-    <p align="center"><img src="Photos/Working_Photos/2.png"></p>
+    <p align="center"><img src="Photos/Working_Photos/2.png" width=240 height=506.666666667></p>
   </br>
   <li>Registration Page</li>
     <p align="center"><img src="Photos/Working_Photos/3.png"></p>
