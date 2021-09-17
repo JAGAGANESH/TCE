@@ -15,28 +15,28 @@ An problem arises when he/she don't aware of local transport for their travel, N
 <b>
 <ul type="square">
   <li>Start Running Application</li>
-    <p align="center"><img src="Photos/Working_Photos/1.png" width=360 height=760></p>
+    <p align="center"><img src="Photos/Working_Photos/1.png" width=240 height=506.666666667></p>
   </br>
   <li>Welcome Page</li>
     <p align="center"><img src="Photos/Working_Photos/2.png" width=240 height=506.666666667></p>
   </br>
   <li>Registration Page</li>
-    <p align="center"><img src="Photos/Working_Photos/3.png"></p>
+    <p align="center"><img src="Photos/Working_Photos/3.png" width=240 height=506.666666667></p>
   </br>
   <li>Login Page</li>
-    <p align="center"><img src="Photos/Working_Photos/4.png"></p>
+    <p align="center"><img src="Photos/Working_Photos/4.png" width=240 height=506.666666667></p>
   </br>
   <li>Home Page</li>
-    <p align="center"><img src="Photos/Working_Photos/5.png"></p>
+    <p align="center"><img src="Photos/Working_Photos/5.png" width=240 height=506.666666667></p>
   </br>
   <li>Home Page - Side Navigation Bar</li>
-    <p align="center"><img src="Photos/Working_Photos/6.png"></p>
+    <p align="center"><img src="Photos/Working_Photos/6.png" width=240 height=506.666666667></p>
   </br>
   <li>User Profile Page</li>
-    <p align="center"><img src="Photos/Working_Photos/7.png"></p>
+    <p align="center"><img src="Photos/Working_Photos/7.png" width=240 height=506.666666667></p>
   </br>
   <li>Home Page - Near By Vehicles</li>
-    <p align="center"><img src="Photos/Working_Photos/8.png"></p>
+    <p align="center"><img src="Photos/Working_Photos/8.png" width=240 height=506.666666667></p>
   </br>
 </ul>
 </b>
