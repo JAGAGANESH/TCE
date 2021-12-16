@@ -6,7 +6,7 @@ h2 {
 
 .grid-container {
   position: absolute;
-  top: 150px;
+  top: 75px;
   display: grid;
   grid-gap: 50px 50px;
   grid-template-columns: 165px 165px 165px 165px 165px 165px;
