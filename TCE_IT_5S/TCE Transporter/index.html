@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<title>TCE Transporter</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel = "icon" href = "tt_logo.png" type = "image/x-icon"> 
+</head>
+<style>
+.rotate {
+  animation: rotation 5s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@media screen and (min-width: 768px) {
+}
+</style>
+<body>
+<a href="home.html"><img src="tt_logo.png" width="250" height="250" class="rotate" style="position:absolute;top:200px;left:550px;"></a>
+</body>
+<script>
+setTimeout(function(){window.location.href = 'home.html';}, 5000);
+</script>
+</html>
+
