@@ -1,0 +1,10 @@
+import socket
+server=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+server.bind(('127.0.0.1',8000))
+server.listen(2)
+conn,addr=server.accept()
+q=int(input("Enter Prime number"))
+alpha=int(input("Enter Prim root"))
+x=int(input("Enter Private Key"))
+y=pow(alpha,x,q)
+conn.send(str(y).encode())
