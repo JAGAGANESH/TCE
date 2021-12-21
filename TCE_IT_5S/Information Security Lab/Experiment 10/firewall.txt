@@ -1,0 +1,69 @@
+Server (Fe 0) ------ Hub (P0)
+Hub (P1) ------ PC 1 (Fe 0)
+Hub (P2) ------ PC 1 (Fe 0)
+Hub (P3) ------ PC 1 (Fe 0)
+
+
+Server
+Ip config 
+     Ip : 20.0.0.1
+DHCP
+    On
+    Add
+    Save
+HTTP
+    On
+    On
+Firewall
+     On
+     
+     Action : Deny
+     Protocol : ICMP
+     R Ip : 0.0.0.0
+     R WM : 255.255.255.255
+     Add
+     Save
+     
+     Action : Allow
+     Protocol : IP
+     R Ip : 0.0.0.0
+     R WM : 255.255.255.255
+     Add
+     Save
+
+
+PC 1
+IP Config : DHCP
+
+PC 2
+IP Config : DHCP
+
+PC 3
+IP Config : DHCP
+
+PC 1
+Cmd
+  > ping 20.0.0.1
+
+Web Browser
+     20.0.0.1
+     => A small page
+     
+PC 2
+Cmd
+  > ping 20.0.0.1
+  
+Web Browser
+     20.0.0.1
+     => Image page
+
+PC 3
+Cmd
+  > ping 20.0.0.1
+  
+Web Browser
+     20.0.0.1
+     => Image
+
+Cmd
+   > ping 20.0.0.2
