@@ -1,5 +1,0 @@
-
-john --list=formats
-
-john --format=raw-sha256 filename.txt
-
