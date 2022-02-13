@@ -45,4 +45,4 @@ Our Application is Toll Gate Management System. This Application can provide all
 </br>
 
 ## About Us
-This project was done by <b>JagaGanesh D</b>, <b>Lokkeswaran S</b> and <b>Velmurugan M</b>. We are students of IT Department from Thiagarajar College of Engineering, Madurai. This project inspired by Database Management System the course belongs to Second Year Fourt Semester of IT department (January 2021 - May 2021).
+This project was done by <b>JagaGanesh D</b>, <b>Lokkeswaran S</b> and <b>Velmurugan M</b>. We are students of IT Department from Thiagarajar College of Engineering, Madurai. This project inspired by Web Technology and System Thinking the courses belongs to Third Year Fifth Semester of IT department (June 2021 - December 2021).
