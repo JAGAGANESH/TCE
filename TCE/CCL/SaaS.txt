@@ -1,3 +1,5 @@
+------------FireBase Storage-------------------
+
 firebase -> GetStarted -> AddProject -> ProjectName -> Continue -> Configure Google Alalytics -> Default Firebase Account -> Create Project -> Continue
 
 Create Web App -> WEbAppName -> Register App -> Continue to console
@@ -28,3 +30,14 @@ storage = firebase.storage()
 storage.child("images/")
 storage.child("images/tce_logo.png").put("/content/drive/MyDrive/TCE/tce_logo.png")
 storage.child("images/tce_logo.png").download("/content/drive/MyDrive/TCE/downloaded.jpg")
+
+
+---------------------DrobBox-----------------------
+import dropbox
+dropbox_access_token= "sl.BJg7iiIUpQJX6FyJtimpzH3gqPlayBDOgcEmR7cou2jBhw8_OkB0PfjVZAuIXi834UIpCJt206nR4G_alLfuvS2c6bsrHG-8Ir3GSyUfH4D0IS1-wPWZpwyRGoUzBbisEnBNdsHQSyIB"    #Enter your own access token
+dropbox_path= "/velu/sample.txt"
+computer_path="E:\Model\Dropbox\sample.txt"
+client = dropbox.Dropbox(dropbox_access_token)
+print("[SUCCESS] dropbox account linked")
+client.files_upload(open(computer_path, "rb").read(), dropbox_path)
+print("[UPLOADED] {}".format(computer_path))
