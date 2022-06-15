@@ -1,0 +1,34 @@
+firebase -> GetStarted -> AddProject -> ProjectName -> Continue -> Configure Google Alalytics -> Default Firebase Account -> Create Project -> Continue
+
+Create Web App -> WEbAppName -> Register App -> Continue to console
+
+Go to Google Colab -> new notebook ->
+
+pip install pyrebase
+import pyrebase
+
+//go to project setting in firebase, copy firebaseconfig code copy here , quote all the key code and add "databaseURL"
+
+firebaseConfig = {
+  'apiKey': "API Key",
+  'authDomain': "projectId.firebaseapp.com",
+  'databaseURL': "https://database.firebaseio.com",
+  'projectId': "projectId",
+  'storageBucket': "projectId.appspot.com",
+  'messagingSenderId': "sendernumber",
+  'appId': "app Id",
+  'measurementId': "Mesurement id",
+  'databaseURL' : "https://projectId.firebaseio.com"
+};
+
+
+firebase = pyrebase.initialize_app(firebaseConfig)
+db = firebase.database()
+db.child("TCE-IT").child("Slot A")
+data = {'Student 1' : 'name 1', "Student 2" : 'name 2', "Student 3" : 'name 3', "Student 4" : 'name 4'}
+db.set(data)
+db.update({'Student 1' : 'name 11'})
+db.child("TCE-IT/Slot A/").update({'Student 1' : 'name 11'})
+db.remove()
+db.get().val()
+db.child('TCE-IT/Sloat A').get().val()

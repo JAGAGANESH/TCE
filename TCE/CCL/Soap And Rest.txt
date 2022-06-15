@@ -1,0 +1,107 @@
+----SOAP-------
+
+DisplayName.java
+package soapp;
+public class DisplayName implements Names {
+	private String name = "null";
+	
+	@Override
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	@Override
+	public String getName() {
+		return name;
+	}
+	
+	@Override
+	public int getAge() {
+		return 20;
+	}
+}
+
+Names.java
+package soapp;
+
+public interface Names {
+	public void setName(String name);
+	public String getName();
+	public int getAge();
+}
+
+
+REST
+
+const express = require('express');
+const app = express();
+app.use(express.json());
+var lab = [
+ {device : 'Fan', id : 'F1',state : 'ON'},
+ {device : 'Fan', id : 'F2',state : 'OFF'},
+{device : 'Fan', id : 'F3',state : 'OFF'},
+ {device : 'Fan', id : 'F4',state : 'ON'},
+ {device : 'Fan', id : 'F5',state : 'ON'},
+ {device : 'Light', id : 'L1',state : 'ON'},
+ {device : 'Light', id : 'L2',state : 'ON'},
+ {device : 'Light', id : 'L3',state : 'ON'},
+ {device : 'Light', id : 'L4',state : 'OFF'},
+ {device : 'Light', id : 'L5',state : 'OFF'}
+]
+
+app.get('/',(req,res)=>{
+ res.send('<center><h1 style = "color : blue;">Welcome to Smart Podium ! ! ! </h1><br><br/><h2>You can control your appliances in a lab and see the status</center>');
+});
+app.get('/lab',(req,res)=>
+{
+ res.send(lab);
+});
+//Get the state of the device based on the ID.
+app.get('/lab/:id',(req,res)=>
+{
+ const result = lab.find(x => x.id === req.params.id);
+ if(!result)
+ {
+ res.status(404).send('<h3>Sorry please check device ID, No device with the given ID');
+ }
+ res.send(result.state);
+});
+//Adding a new device
+app.post('/add',(req,res)=>
+{
+var devi = req.body;
+lab.push(devi);
+res.send(lab);
+});
+//Update the state based on the device id
+
+app.put('/labu/:id',(req,res)=>
+{
+ const f = lab.find(x=>x.id === req.params.id);
+ if(!f)
+ {
+ res.status(404).send('Sorry unable to find record');
+ }
+ //Updating state of the device
+ f.state = req.body.state;
+ res.send(f);
+});
+//Deleting a device for the given id
+app.delete('/del/:id',(req,res)=>
+{
+ var p = req.params.id;
+ const result = lab.find(x => x.id === p);
+ if(!result)
+ {
+ res.status(404).send('<h3>Sorry please check device ID, No device with the given ID');
+ }
+ const ind = lab.indexOf(result);
+ lab.splice(ind,1);
+ res.send(lab); 
+});
+var server = app.listen(5001,function(){
+{
+ var port = server.address().port;
+ console.log("Application server listening on the port number : ",port);
+}})
+

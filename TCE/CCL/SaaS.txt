@@ -1,0 +1,30 @@
+firebase -> GetStarted -> AddProject -> ProjectName -> Continue -> Configure Google Alalytics -> Default Firebase Account -> Create Project -> Continue
+
+Create Web App -> WEbAppName -> Register App -> Continue to console
+
+Go to Google Colab -> new notebook ->
+
+pip install pyrebase
+import pyrebase
+
+
+//go to project setting in firebase, copy firebaseconfig code copy here , quote all the key code and add "databaseURL"
+//and add Storage "storageBucket"
+
+firebaseConfig = {
+  'apiKey': "API Key",
+  'authDomain': "projectId.firebaseapp.com",
+  'databaseURL': "https://database.firebaseio.com",
+  'projectId': "projectId",
+  'storageBucket': "projectId.appspot.com",
+  'messagingSenderId': "sendernumber",
+  'appId': "app Id",
+  'measurementId': "Mesurement id",
+  'databaseURL' : "https://projectId.firebaseio.com"
+  'storageBucket' : "projectId.appspot.com"
+};
+firebase = pyrebase.initialize_app(firebaseConfig)
+storage = firebase.storage()
+storage.child("images/")
+storage.child("images/tce_logo.png").put("/content/drive/MyDrive/TCE/tce_logo.png")
+storage.child("images/tce_logo.png").download("/content/drive/MyDrive/TCE/downloaded.jpg")

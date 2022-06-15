@@ -1,0 +1,12 @@
+Go to Auth0.com -> SignUp -> SignIn -> Click Application -> Creat Application
+Click Regular Web Application -> Name the App -> 
+Click Python -> Download Sample
+-> Go to Applcation Settings -> Copy URL and Paste in Application Settings -> Save Changes
+Download Sample File ->  open in Commend Prompt -> 
+	#pip install -r requirements.txt
+	#python3 server.py
+	
+Open localhost/3000 in browser -> Click Login -> Continue with Google
+
+
+
