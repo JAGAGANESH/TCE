@@ -62,7 +62,7 @@ public class Client{
 //rmiregistry
 
 //Run this on another Computer
-//java Server.java
+//java Server
 
 //Run this on another Computer
-//java Client.java
+//java Client
