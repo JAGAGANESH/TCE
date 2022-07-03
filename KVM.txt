@@ -1,0 +1,20 @@
+egrep -c 'lm' /proc/cpuinfo
+uname -a
+ls /lib/modules/5.3.0-28-generic/kernel/arch/x86/kvm
+apt-cache search qemu-kvm
+apt-get install qemu-kvm
+apt-get install libvirt-bin
+apt-get install bridge-utils qemu-system virt-manager
+nano /etc/libvirt/libvirtd.conf
+	listen_addr = "0.0.0.0"
+	unix_sock_group = "libvirt"
+	unix_sock_ro_perms = "0777"
+	unix_sock_rw_perms = "0777"
+	unix_sock_dir = "/var/run/libvirt"
+	auth_unix_ro = "none"
+	auth_unix_rw = "none"
+virsh list
+virsh
+version
+nodeinfo
+qemu-img convert -O vpc filename.img dest.vhd -p
