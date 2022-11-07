@@ -43,7 +43,14 @@ function signUp(){
             firebaseRef.child("LMCS Users/Labours/"+uid).set(userData);
 	})
     .then((then) => {
-        signIn();
+    	firebase.auth().signInWithEmailAndPassword(email, password).then((success) => {
+        	var uid = firebase.auth().currentUser.uid;
+		window.location.replace("LabourDashboard.html?uid="+uid);
+	}).catch((error) => {
+            var errorCode = error.code;
+            var errorMessage = error.message;
+	    alert(errorMessage);
+        });
     })
     .catch((error) => {
       	var errorCode = error.code;
@@ -74,7 +81,14 @@ function signUpEngineer() {
             firebaseRef.child("LMCS Users/Engineers/"+uid).set(userData);
 	})
     .then((then) => {
-        signIn();
+    	firebase.auth().signInWithEmailAndPassword(email, password).then((success) => {
+        	var uid = firebase.auth().currentUser.uid;
+		window.location.replace("LabourLists.html?uid="+uid);
+	}).catch((error) => {
+            var errorCode = error.code;
+            var errorMessage = error.message;
+	    alert(errorMessage);
+        });
     })
     .catch((error) => {
       	var errorCode = error.code;
