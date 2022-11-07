@@ -87,6 +87,41 @@
                     </form>
                 </div>
             </section>
+            <div id="LabourListsPopup">  
+                <div id="EditLabourData" class="overlay">
+                    <div class="popup">
+                        <label>Name :</label>
+                        <input type="text" name="et_name" id="et_name" value="Name">
+                        <a class="close" href="#">&times;</a><hr></br>
+                        <div class="content">
+                            <label>Age :</label>
+                            <input type="number" name="et_age" id="et_age" value="25"></br>
+                            <label>Experiance : </label>
+                            <select name="et_experiance" id="et_experiance">
+                              <option value="none" selected disabled hidden>0 - 1 Year</option>
+                              <option value="0 - 1 Year">0 - 1 Year</option>
+                              <option value="2 - 5 Year">2 - 5 Year</option>
+                              <option value="5 Above">5 Above</option>
+                            </select></br>
+                            <label>Skills :</label>
+                            <input type="text" name="et_skill" id="et_skill" value="skill"></br>
+                            <label>Mobile No :</label>
+                            <input type="number" name="et_mobile" id="et_mobile" value="123478965"></br>
+                            <label>Aadhar :</label>
+                            <input type="number" name="et_aadhar" id="et_aadhar" value="1234456878965"></br>
+                            <label>Work :</label>
+                            <input type="text" name="et_work" id="et_work" value="Work"></br>
+                            <label>Email :</label>
+                            <input type="email" name="et_email" id="et_email" value="email@gmail.com"></br>
+                            <label>Password :</label>
+                            <input type="text" name="et_password" id="et_password" value="Passowrd"></br>
+                        </div>
+                        <div class="SubmitEdited">
+                            <a href="javascript:void(0);" class="logout" onclick="signOut();">Save Changes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </body>
     <script>
         getData();
