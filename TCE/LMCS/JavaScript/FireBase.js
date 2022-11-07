@@ -211,6 +211,10 @@ function timeFunction() {
 }
 
 function EditLabourData() {
+    var urlQueryString = window.location.search;
+    var urlParams = new URLSearchParams(urlQueryString);
+    var userUID = urlParams.get("uid");
+
     var name = document.getElementById("et_name").value;
     var age = document.getElementById("et_age").value;
     var experiance = document.getElementById("et_experiance").value;
@@ -220,4 +224,16 @@ function EditLabourData() {
     var work = document.getElementById("et_work").value;
     var email = document.getElementById("et_email").value;
     var password = document.getElementById("et_password").value;
+
+    firebase.database().ref().child("LMCS Users/Labours/"+userUID).update({
+        Name: name,
+        Age: age,
+        Experiance: experiance,
+        Skill: skill,
+        Mobile: mobile,
+        Aadhar: aadhar,
+        Work: work,
+        Email: email,
+        Password: password,
+    });
 }
