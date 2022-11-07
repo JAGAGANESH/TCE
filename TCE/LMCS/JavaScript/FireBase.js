@@ -158,6 +158,10 @@ function getData() {
         document.getElementById("LWork").innerHTML=work;
         document.getElementById("LSkill").innerHTML=skill;
         document.getElementById("LExperiance").innerHTML=experiance;
+	    
+        var password = snapshot.val().Password;
+        var EditLabourData = "<div id='EditLabourData' class='overlay'><div class='popup'><label>Name :</label><input type='text' name='et_name' id='et_name' value='"+name+"'><a class='close' href='#'>&times;</a><hr></br><div class='content'><label>Age :</label><input type='number' name='et_age' id='et_age' value='"+age+"'></br><label>Experiance : </label><select name='et_experiance' id='et_experiance'><option value='"+experiance+"' selected disabled hidden>"+experiance+"</option><option value='0 - 1 Year'>0 - 1 Year</option><option value='2 - 5 Year'>2 - 5 Year</option><option value='5 Above'>5 Above</option></select></br><label>Skills :</label><input type='text' name='et_skill' id='et_skill' value='"+skill+"'></br><label>Mobile No :</label><input type='number' name='et_mobile' id='et_mobile' value='"+mobile+"'></br><label>Aadhar :</label><input type='number' name='et_aadhar' id='et_aadhar' value='"+aadhar+"'></br><label>Work :</label><input type='text' name='et_work' id='et_work' value='"+work+"'></br><label>Email :</label><input type='email' name='et_email' id='et_email' value='"+email+"'></br><label>Password :</label><input type='text' name='et_password' id='et_password' value='"+password+"'></br></div><div class='SubmitEdited'><a href='javascript:void(0);' class='logout' onclick='EditLabourData();'>Save Changes</a></div></div></div>";
+        document.getElementById("LabourListsPopup").innerHTML = EditLabourData;
     });
 }
 
@@ -204,4 +208,16 @@ function LabourEngineer(uid) {
 
 function timeFunction() {
     setTimeout(function(){ console.log("Loading..."); }, 5000);
+}
+
+function EditLabourData() {
+    var name = document.getElementById("et_name").value;
+    var age = document.getElementById("et_age").value;
+    var experiance = document.getElementById("et_experiance").value;
+    var skill = document.getElementById("et_skill").value;
+    var mobile = document.getElementById("et_mobile").value;
+    var aadhar = document.getElementById("et_aadhar").value;
+    var work = document.getElementById("et_work").value;
+    var email = document.getElementById("et_email").value;
+    var password = document.getElementById("et_password").value;
 }
