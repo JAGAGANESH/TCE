@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <title>LMCS</title>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
+        <script src="JavaScript/FireBase.js"></script> 
+        <script src="JavaScript/index.js"></script>
+    </head>
+    <body>
+        <main class="main-area">
+            <div class="centered">
+                <section class="cards" id="LabourLists">
+                    <!-- <article class="card">
+                        <a href="#labour1">
+                            <div class="card-content">
+                                <h2>பெயர்</h2><hr>
+                                <p>வயது</p>
+                                <p><b>வேலை</b></p>
+                            </div>
+                        </a>
+                    </article> -->
+              </section>
+            </div>
+        </main> 
+        <div id="LabourListsPopup">  
+            <div id="labour1" class="overlay">
+                <div class="popup">
+                    <h2>பெயர்</h2>
+                    <a class="close" href="#">&times;</a><hr>
+                    <div class="content">
+                        வயது : </br>
+                        அனுபவம் : </br>
+                        வேலை : </br>
+                        வேலை நாட்கள் : </br>
+                        கைபேசி எண் : </br>
+                    </div>
+                    <div class="Rating">
+                        மதிப்பீடு : 
+                        <span id="star1" class="fa fa-star"></span>
+                        <span id="star2" class="fa fa-star"></span>
+                        <span id="star3" class="fa fa-star"></span>
+                        <span id="star4" class="fa fa-star"></span>
+                        <span id="star5" class="fa fa-star"></span>
+                        (590)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        Rating();
+        getAllData();
+    </script>
+</html>
