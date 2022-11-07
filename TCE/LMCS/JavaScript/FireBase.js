@@ -88,7 +88,7 @@ function signIn(){
     var password = document.getElementById("password").value;
     firebase.auth().signInWithEmailAndPassword(email, password).then((success) => {
         var uid = firebase.auth().currentUser.uid;
-        var user = 1;
+        /*var user = 1;
 
         // var Labours = firebase.database().ref('LMCS Users/Labours/');
         var Engineers = firebase.database().ref('LMCS Users/Engineers/');
@@ -101,10 +101,11 @@ function signIn(){
             for(i in snapshot.val()) {
                 if(uid==i) { user = 2;break; }
             }
-        }, function (error) { console.log("Error: " + error.code); });
+        }, function (error) { console.log("Error: " + error.code); });*/
+	var user = LabourEngineer(uid);
         
-        if(user==1) { window.location.replace("LabourDashboard.html?uid="+uid); }
-        else if(user==2) { window.location.replace("LabourLists.html"); }
+        if(user=="Labour") { window.location.replace("LabourDashboard.html?uid="+uid); }
+        else if(user=="Engineer") { window.location.replace("LabourLists.html"); }
         else { console.log(user); }
         }).catch((error) => {
             var errorCode = error.code;
@@ -176,12 +177,12 @@ function LabourEngineer(uid) {
     var Engineers = firebase.database().ref('LMCS Users/Engineers/');
     Labours.on("value", function(snapshot) {
         for(i in snapshot.val()) {
-            if(uid==i) { user = "labour" }
+            if(uid==i) { user = "Labour" }
         }
     }, function (error) { console.log("Error: " + error.code); });
     Engineers.on("value", function(snapshot) {
         for(i in snapshot.val()) {
-            if(uid==i) { user = "engineer" }
+            if(uid==i) { user = "Engineer" }
         }
     }, function (error) { console.log("Error: " + error.code); });
     return user;
