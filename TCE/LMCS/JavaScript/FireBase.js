@@ -235,5 +235,8 @@ function EditLabourData() {
         Work: work,
         Email: email,
         Password: password,
+    })
+    .then((then) => {
+        window.location.href = "LabourDashboard.html?uid="+userUID;
     });
 }
