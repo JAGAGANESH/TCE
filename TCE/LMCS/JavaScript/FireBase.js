@@ -119,7 +119,7 @@ function signIn(){
 	var user = LabourEngineer(uid);
         
         if(user=="Labour") { window.location.replace("LabourDashboard.html?uid="+uid); }
-        else if(user=="Engineer") { window.location.replace("LabourLists.html?uid="+uid)); }
+        else if(user=="Engineer") { window.location.replace("LabourLists.html?uid="+uid); }
         else { console.log(user); }
         }).catch((error) => {
             var errorCode = error.code;
