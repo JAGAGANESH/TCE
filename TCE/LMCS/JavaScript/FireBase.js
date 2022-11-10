@@ -119,7 +119,7 @@ function signIn(){
 	var user = LabourEngineer(uid);
         
         if(user=="Labour") { window.location.replace("LabourDashboard.html?uid="+uid); }
-        else if(user=="Engineer") { window.location.replace("LabourLists.html"); }
+        else if(user=="Engineer") { window.location.replace("LabourLists.html?uid="+uid)); }
         else { console.log(user); }
         }).catch((error) => {
             var errorCode = error.code;
@@ -166,7 +166,10 @@ function getData() {
 }
 
 function getEngineerData() {
-    var userUID = firebase.auth().currentUser.uid;
+    var urlQueryString = window.location.search;
+    var urlParams = new URLSearchParams(urlQueryString);
+    var userUID = urlParams.get("uid");
+//     var userUID = firebase.auth().currentUser.uid;
     firebase.database().ref('LMCS Users/Engineers/'+userUID).once('value').then(function (snapshot) {
         var name = snapshot.val().Name;
         document.getElementById("Welcome").innerHTML=name;
