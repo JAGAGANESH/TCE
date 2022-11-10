@@ -165,6 +165,14 @@ function getData() {
     });
 }
 
+function getEngineerData() {
+    var userUID = firebase.auth().currentUser.uid;
+    firebase.database().ref('LMCS Users/Engineers/'+userUID).once('value').then(function (snapshot) {
+        var name = snapshot.val().Name;
+        document.getElementById("Welcome").innerHTML=name;
+    });
+}
+
 function getAllData() {
     var ref = firebase.database().ref('LMCS Users/Labours/');
     ref.on("value", function(snapshot) {
