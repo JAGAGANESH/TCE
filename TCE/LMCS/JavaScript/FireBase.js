@@ -172,7 +172,12 @@ function getEngineerData() {
 //     var userUID = firebase.auth().currentUser.uid;
     firebase.database().ref('LMCS Users/Engineers/'+userUID).once('value').then(function (snapshot) {
         var name = snapshot.val().Name;
+        var age = snapshot.val().Age;
+        var email =snapshot.val().Email;
         document.getElementById("Welcome").innerHTML = "Hello, "+name;
+        document.getElementById("dd_Name").innerHTML = name;
+        document.getElementById("dd_age").innerHTML = "Age : "+age;
+        document.getElementById("dd_Email").innerHTML = email;
     });
 }
 
