@@ -176,7 +176,7 @@ function getEngineerData() {
         var email =snapshot.val().Email;
         document.getElementById("Welcome").innerHTML = "Hello, "+name;
         document.getElementById("dd_Name").innerHTML = name;
-        document.getElementById("dd_age").innerHTML = "Age : "+age;
+        document.getElementById("dd_Age").innerHTML = "Age : "+age;
         document.getElementById("dd_Email").innerHTML = email;
     });
 }
