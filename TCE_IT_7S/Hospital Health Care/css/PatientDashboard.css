@@ -1,0 +1,80 @@
+body {
+    background-color: whitesmoke;
+}
+.container {
+    margin: 0 5%;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1), 0 32px 64px -48px rgba(0,0,0,0.5);
+}
+.container .Patient-Header {
+    background-color: red;
+    height: 330px;
+    border-radius: 15px 15px 0 0;
+}
+.container .Patient-Body {
+    background-color: white;
+    /* height: 1000px; */
+    border-radius: 0 0 15px 15px;
+}
+.container .Patient-Body .treatments{
+    padding: 20px;
+}
+.container .Patient-Body .treatments .current-treatment{
+    padding: 10px;
+    margin: 5px;
+    background-color: greenyellow;
+    border-radius: 25px;
+    height: 250px;
+}
+.container .Patient-Body .treatments .past-treatment{
+    padding: 10px;
+    margin: 5px;
+    background-color: powderblue;
+    border-radius: 25px;
+    height: 250px;
+
+}
+
+.vertical-line {
+    border-left: 2px solid whitesmoke;
+    height: 220px;
+    position: absolute;
+    top: 90px;
+    left: 50%;
+}
+
+.P_Name {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.P_PersonalData table {
+    margin: 0 100px;
+
+}
+
+.P_PersonalData table th, td {
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.P_PersonalData table th {
+    width: 200px;
+}
+.P_PersonalData table td {
+    width: 150px;
+}
+
+.Patient-Body .treatments table{
+    margin: 5px;
+    width: 100%;
+}
+.Patient-Body .treatments table th, .Patient-Body .treatments table td{
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+}
