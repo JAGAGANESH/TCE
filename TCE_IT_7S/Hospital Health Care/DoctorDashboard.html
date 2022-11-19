@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <title>HHC Doctor Dashboard</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/Menu.css">
+        <link rel="stylesheet" href="css/DoctorDashboard.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"> <!-- Menu Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Rating Star -->
+        <script src="JavaScript/Menu.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
+        <script src="JavaScript/FireBase.js"></script> 
+    </head>
+    <body id="body-pd">
+        <header class="header" id="header">
+            <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle"></i> </div>
+            <!-- <div class="welcome" id="Welcome">Hello, Tamila</div> -->
+            <div class="header_img"> <img src="Images/Profile.png" alt=""></div>
+        </header>
+        <div class="l-navbar" id="nav-bar">
+            <nav class="nav">
+                <div> 
+                    <a href="#" class="nav_logo"> 
+                        <i class='bx bx-layer nav_logo-icon'></i> 
+                        <span class="nav_logo-name">HHC Doctor</span> 
+                    </a>
+                    <div class="nav_list">
+                        <a href="DoctorDashboard.html" class="nav_link active"> 
+                            <i class='bx bx-grid-alt nav_icon'></i> 
+                            <span class="nav_name">Dashboard</span> 
+                        </a> 
+                        <a href="CurrentPatients.html" class="nav_link"> 
+                            <i class='bx bx-user nav_icon'></i> 
+                            <span class="nav_name">Patients</span> 
+                        </a> 
+                        <a href="#" class="nav_link"> 
+                            <i class='bx bx-bookmark nav_icon'></i> 
+                            <span class="nav_name">Appointments</span> 
+                        </a> 
+                        <a href="#" class="nav_link"> 
+                            <i class='bx bx-message-square-detail nav_icon'></i> 
+                            <span class="nav_name">Schedule</span> 
+                        </a> 
+                        <a href="#" class="nav_link"> 
+                            <i class='bx bx-bar-chart-alt-2 nav_icon'></i> 
+                            <span class="nav_name">Hospital Analytics</span> 
+                        </a> 
+                        <a href="#" class="nav_link"> 
+                            <i class='bx bx-folder nav_icon'></i> 
+                            <span class="nav_name">Others</span> 
+                        </a> 
+                    </div>
+                </div> 
+                <a href="javascript:void(0);" class="nav_link" onclick="signOut();"> 
+                    <i class='bx bx-log-out nav_icon'></i> 
+                    <span class="nav_name">SignOut</span> 
+                </a>
+            </nav>
+        </div>
+
+        <div class="wrapper">
+            <section class="users" id="section1">
+                <header>
+                    <div class="content">
+                        <img src="Images/profile.jpg" alt="My DP">
+                        <div class="details">
+                            <span id="D_Name">Dr. Doctor</span>
+                        </div>
+                    </div> 
+                    <!-- <a href="#EditLabourData" class="logout">Edit</a> -->
+                </header>   
+                <div class="users_area">  
+                    <div class="recent_user_list" id="recent_user_list">
+                        <div class="MyLabourData">
+                            Age : <span id="D_Age">35 Years</span>
+                        </div>
+                        <div class="MyLabourData">
+                            Blood Group : <span id="D_Bg">O Positive</span>
+                        </div>
+                        <div class="MyLabourData">
+                            Mobile Number : <span id="D_Mobile">9876543210</span>
+                        </div>
+                        <div class="MyLabourData">
+                            Mail : <span id="D_Mail">name@gmail.com</span>
+                        </div>
+                        <div class="MyLabourData">
+                            Aadhar Number : <span id="D_Aadhar">9999 8888 7777 6666</span>
+                        </div>
+                    </div>
+                </div>
+            </section>  
+            <section class="chat_box" id="section2">
+                <div class="chat-area">
+                    <header>
+                        <img src="Images/resume.png" alt="Selected User DP"> 
+                        <div class="details">
+                            <span>Details</span>
+                            <p>Experiance, Work, Review</p>
+                        </div>
+                    </header>
+                    <div class="chat-box"> 
+                        <div class="chat leftUserData">
+                            <div class="details">
+                                <p>Department : <span id="D_Dept">Emergency Medicine</span></p>
+                            </div>
+                        </div> 
+                        <div class="chat leftUserData">
+                            <div class="details">
+                                <p>Education : <span id="D_Education">MBBS, MD,..</span></p>
+                            </div>
+                        </div> 
+                        <div class="chat leftUserData">
+                            <div class="details">
+                                <p>Experiance : <span id="D_Experiance">Above 5 Years</span></p>
+                            </div>
+                        </div> 
+                        <!-- <div class="chat outgoing">
+                            <div class="details">
+                                <p>Information Technology</p>
+                            </div>
+                        </div> -->
+                    </div>
+                    <!-- <form action="#" class="typing-area">
+                        <div class="Rating">
+                            Your Rating :
+                            <span id="star1" class="fa fa-star"></span>
+                            <span id="star2" class="fa fa-star"></span>
+                            <span id="star3" class="fa fa-star"></span>
+                            <span id="star4" class="fa fa-star"></span>
+                            <span id="star5" class="fa fa-star"></span>
+                            (590)
+                        </div>
+                        <a href="javascript:void(0);" class="logout" onclick="signOut();">Logout</a>
+                    </form> -->
+                </div>
+            </section>
+            <div id="LabourListsPopup">  
+                <div id="EditLabourData" class="overlay">
+                    <div class="popup">
+                        <label>Name :</label>
+                        <input type="text" name="et_name" id="et_name" value="Name">
+                        <a class="close" href="#">&times;</a><hr></br>
+                        <div class="content">
+                            <label>Age :</label>
+                            <input type="number" name="et_age" id="et_age" value="25"></br>
+                            <label>Experiance : </label>
+                            <select name="et_experiance" id="et_experiance">
+                              <option value="none" selected disabled hidden>0 - 1 Year</option>
+                              <option value="0 - 1 Year">0 - 1 Year</option>
+                              <option value="2 - 5 Year">2 - 5 Year</option>
+                              <option value="5 Above">5 Above</option>
+                            </select></br>
+                            <label>Skills :</label>
+                            <input type="text" name="et_skill" id="et_skill" value="skill"></br>
+                            <label>Mobile No :</label>
+                            <input type="number" name="et_mobile" id="et_mobile" value="123478965"></br>
+                            <label>Aadhar :</label>
+                            <input type="number" name="et_aadhar" id="et_aadhar" value="1234456878965"></br>
+                            <label>Work :</label>
+                            <input type="text" name="et_work" id="et_work" value="Work"></br>
+                            <label>Email :</label>
+                            <input type="email" name="et_email" id="et_email" value="email@gmail.com"></br>
+                            <label>Password :</label>
+                            <input type="text" name="et_password" id="et_password" value="Passowrd"></br>
+                        </div>
+                        <div class="SubmitEdited">
+                            <a href="javascript:void(0);" class="logout" onclick="signOut();">Save Changes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </body>
+    <script>
+        getDoctorData();
+    </script>
+</html>

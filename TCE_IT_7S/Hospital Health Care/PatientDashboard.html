@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <title>HHC Patient Dashboard</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/PatientDashboard.css">
+        <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
+        <script src="JavaScript/FireBase.js"></script> 
+    </head>
+    <body>
+        <div class="container">
+            <div class="Patient-Header">
+                <div class="P_Name" id="p_name">Patient Name</div>
+                <div class="P_PersonalData">
+                    <table>
+                        <tr>
+                            <th>Age</th>
+                            <td id="p_age">15 Years</td>
+                            <th></th>
+                            <th>Patient Id</th>
+                            <td id="p_id">P00001</td>
+                        </tr>
+                        <tr>
+                            <th>Blood Group</th>
+                            <td id="p_blood">O Positive</td>
+                            <th></th>
+                            <th>Mobile No</th>
+                            <td id="p_mobile">9876543210</td>
+                        </tr>
+                        <tr>
+                            <th>Gender</th>
+                            <td id="p_gender">Male</td>
+                            <th></th>
+                            <th>Email</th>
+                            <td id="p_email">mail@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th>Height</th>
+                            <td id="p_height">170 cm</td>
+                            <th></th>
+                            <th>Address</th>
+                            <td id="p_address">Door No, Distric, State - Pincode.</td>
+                        </tr>
+                        <tr>
+                            <th>Weight</th>
+                            <td id="p_weight">50 kg</td>
+                            <th></th>
+                            <th></th>
+                            <td></td>
+                        </tr>
+                    </table>
+                    <div class="vertical-line"></div>
+                </div>
+
+            </div>
+            <div class="Patient-Body">
+                <div class="treatments">
+                    <div class="current-treatment">
+                        <table>
+                            <tr>
+                                <th>Admission No : 1123</th>
+                                <th>Bed No : A112</th>
+                                <th>Admission Date : 10.10.2022</th>
+                                <th>Discharge Date (Prediction) : 20.10.2022</th>
+                            </tr>
+                            <tr>
+                                <th>Problem</th>
+                                <td>Corono</td>
+                            </tr>
+                            <tr>
+                                <th>Treatment</th>
+                                <td>Isolation</td>
+                            </tr>
+                            <tr>
+                                <th>Medicines</th>
+                                <td>A1, A2, A3</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="past-treatment">
+                        <table>
+                            <tr>
+                                <th>Admission No : 1124</th>
+                                <th>Admission Date : 10.10.2022</th>
+                                <th>Discharge Date (Prediction) : 20.10.2022</th>
+                            </tr>
+                            <tr>
+                                <th>Problem</th>
+                                <td>Corono</td>
+                            </tr>
+                            <tr>
+                                <th>Treatment</th>
+                                <td>Isolation</td>
+                            </tr>
+                            <tr>
+                                <th>Medicines</th>
+                                <td>A1, A2, A3</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        getPatientData();
+    </script>
+</html>
