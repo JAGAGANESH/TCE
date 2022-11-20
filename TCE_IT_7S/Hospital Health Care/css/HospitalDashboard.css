@@ -64,3 +64,8 @@
     top: 700px;
     left: 750px;
 }
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
