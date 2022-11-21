@@ -21,8 +21,8 @@ arises on verifying water purity and its quality management.
 
 <h3 style="font-size: 50px;">&raquo;  Software</h3>
 <ul>
-  <li><b>Arduino IDE</b> - Designing and Creating Webpages</li>
-  <li><b>Android Studio</b> - Hosting the Webpages</li>
+  <li><b>Arduino IDE</b> - Coding the Arduino UNO and Node MCU</li>
+  <li><b>Android Studio</b> - Developeing of Mobile Application</li>
   <li><b>Firebase</b> - Real Time Database</li>
 </ul>
 
