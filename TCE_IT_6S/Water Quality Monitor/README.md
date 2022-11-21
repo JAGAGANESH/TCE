@@ -30,7 +30,6 @@ arises on verifying water purity and its quality management.
 ## Prototype
  <p align="center">
   <img src="Photos/img1.png">
-  <img src="Photos/img2.png">
   <img src="Photos/img3.png">
  </p>
  
