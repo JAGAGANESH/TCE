@@ -1,0 +1,7 @@
+com/duja/waqumo/ConnectionActivity.java
+ com.duja.waqumo.ConnectionActivity
+com/duja/waqumo/BuildConfig.java
+ com.duja.waqumo.BuildConfig
+com/duja/waqumo/MainActivity.java
+ com.duja.waqumo.MainActivity
+ com.duja.waqumo.MainActivity$1
