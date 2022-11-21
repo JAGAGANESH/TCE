@@ -1,0 +1,181 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.duja.waqumo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/duja/TCE/SIXTH SEMESTER/PROJECT/WaQuMo/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/home/duja/TCE/SIXTH SEMESTER/PROJECT/WaQuMo/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/duja/TCE/SIXTH SEMESTER/PROJECT/WaQuMo/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/duja/TCE/SIXTH SEMESTER/PROJECT/WaQuMo/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/home/duja/TCE/SIXTH SEMESTER/PROJECT/WaQuMo/app/src/main/AndroidManifest.xml:6:5-79
+12-->/home/duja/TCE/SIXTH SEMESTER/PROJECT/WaQuMo/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement-api:21.0.0] /home/duja/.gradle/caches/transforms-3/0adb30a016a3d42b13677c25e338e811/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:21.0.0] /home/duja/.gradle/caches/transforms-3/0adb30a016a3d42b13677c25e338e811/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+14-->[com.google.android.gms:play-services-measurement-api:21.0.0] /home/duja/.gradle/caches/transforms-3/0adb30a016a3d42b13677c25e338e811/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:25:5-79
+14-->[com.google.android.gms:play-services-measurement-api:21.0.0] /home/duja/.gradle/caches/transforms-3/0adb30a016a3d42b13677c25e338e811/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:25:22-76
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.google.android.gms:play-services-measurement:21.0.0] /home/duja/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:21.0.0] /home/duja/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:22-107
+16
+17    <application
+17-->/home/duja/TCE/SIXTH SEMESTER/PROJECT/WaQuMo/app/src/main/AndroidManifest.xml:7:5-28:19
+18        android:allowBackup="true"
+18-->/home/duja/TCE/SIXTH SEMESTER/PROJECT/WaQuMo/app/src/main/AndroidManifest.xml:8:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.7.0] /home/duja/.gradle/caches/transforms-3/919b1e91a07ddbf34272a620f8cba519/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/wqm_logo"
+21-->/home/duja/TCE/SIXTH SEMESTER/PROJECT/WaQuMo/app/src/main/AndroidManifest.xml:9:9-40
+22        android:label="@string/app_name"
+22-->/home/duja/TCE/SIXTH SEMESTER/PROJECT/WaQuMo/app/src/main/AndroidManifest.xml:10:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/home/duja/TCE/SIXTH SEMESTER/PROJECT/WaQuMo/app/src/main/AndroidManifest.xml:11:9-54
+24        android:supportsRtl="true"
+24-->/home/duja/TCE/SIXTH SEMESTER/PROJECT/WaQuMo/app/src/main/AndroidManifest.xml:12:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.WaQuMo" >
+26-->/home/duja/TCE/SIXTH SEMESTER/PROJECT/WaQuMo/app/src/main/AndroidManifest.xml:13:9-44
+27        <activity
+27-->/home/duja/TCE/SIXTH SEMESTER/PROJECT/WaQuMo/app/src/main/AndroidManifest.xml:14:9-22:20
+28            android:name="com.duja.waqumo.MainActivity"
+28-->/home/duja/TCE/SIXTH SEMESTER/PROJECT/WaQuMo/app/src/main/AndroidManifest.xml:15:13-41
+29            android:exported="true" >
+29-->/home/duja/TCE/SIXTH SEMESTER/PROJECT/WaQuMo/app/src/main/AndroidManifest.xml:16:13-36
+30            <intent-filter>
+30-->/home/duja/TCE/SIXTH SEMESTER/PROJECT/WaQuMo/app/src/main/AndroidManifest.xml:17:13-21:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/home/duja/TCE/SIXTH SEMESTER/PROJECT/WaQuMo/app/src/main/AndroidManifest.xml:18:17-69
+31-->/home/duja/TCE/SIXTH SEMESTER/PROJECT/WaQuMo/app/src/main/AndroidManifest.xml:18:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/home/duja/TCE/SIXTH SEMESTER/PROJECT/WaQuMo/app/src/main/AndroidManifest.xml:20:17-77
+33-->/home/duja/TCE/SIXTH SEMESTER/PROJECT/WaQuMo/app/src/main/AndroidManifest.xml:20:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->/home/duja/TCE/SIXTH SEMESTER/PROJECT/WaQuMo/app/src/main/AndroidManifest.xml:23:9-26:20
+37            android:name="com.duja.waqumo.ConnectionActivity"
+37-->/home/duja/TCE/SIXTH SEMESTER/PROJECT/WaQuMo/app/src/main/AndroidManifest.xml:24:13-47
+38            android:exported="true" >
+38-->/home/duja/TCE/SIXTH SEMESTER/PROJECT/WaQuMo/app/src/main/AndroidManifest.xml:25:13-36
+39        </activity>
+40
+41        <service
+41-->[com.google.firebase:firebase-database:20.0.5] /home/duja/.gradle/caches/transforms-3/808005882eab57e1b99d41fea6f374d0/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:29:9-35:19
+42            android:name="com.google.firebase.components.ComponentDiscoveryService"
+42-->[com.google.firebase:firebase-database:20.0.5] /home/duja/.gradle/caches/transforms-3/808005882eab57e1b99d41fea6f374d0/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:30:13-84
+43            android:directBootAware="true"
+43-->[com.google.firebase:firebase-common:20.1.1] /home/duja/.gradle/caches/transforms-3/d06171a28db49837b42f6c3db3002b54/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+44            android:exported="false" >
+44-->[com.google.firebase:firebase-database:20.0.5] /home/duja/.gradle/caches/transforms-3/808005882eab57e1b99d41fea6f374d0/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:31:13-37
+45            <meta-data
+45-->[com.google.firebase:firebase-database:20.0.5] /home/duja/.gradle/caches/transforms-3/808005882eab57e1b99d41fea6f374d0/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:32:13-34:85
+46                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+46-->[com.google.firebase:firebase-database:20.0.5] /home/duja/.gradle/caches/transforms-3/808005882eab57e1b99d41fea6f374d0/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:33:17-109
+47                android:value="com.google.firebase.components.ComponentRegistrar" />
+47-->[com.google.firebase:firebase-database:20.0.5] /home/duja/.gradle/caches/transforms-3/808005882eab57e1b99d41fea6f374d0/transformed/jetified-firebase-database-20.0.5/AndroidManifest.xml:34:17-82
+48            <meta-data
+48-->[com.google.android.gms:play-services-measurement-api:21.0.0] /home/duja/.gradle/caches/transforms-3/0adb30a016a3d42b13677c25e338e811/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:31:13-33:85
+49                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+49-->[com.google.android.gms:play-services-measurement-api:21.0.0] /home/duja/.gradle/caches/transforms-3/0adb30a016a3d42b13677c25e338e811/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:32:17-139
+50                android:value="com.google.firebase.components.ComponentRegistrar" />
+50-->[com.google.android.gms:play-services-measurement-api:21.0.0] /home/duja/.gradle/caches/transforms-3/0adb30a016a3d42b13677c25e338e811/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:33:17-82
+51            <meta-data
+51-->[com.google.firebase:firebase-installations:17.0.1] /home/duja/.gradle/caches/transforms-3/a4e2d8123eb29af6f36b7c2f1699916f/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+52                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+52-->[com.google.firebase:firebase-installations:17.0.1] /home/duja/.gradle/caches/transforms-3/a4e2d8123eb29af6f36b7c2f1699916f/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+53                android:value="com.google.firebase.components.ComponentRegistrar" />
+53-->[com.google.firebase:firebase-installations:17.0.1] /home/duja/.gradle/caches/transforms-3/a4e2d8123eb29af6f36b7c2f1699916f/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+54        </service>
+55
+56        <provider
+56-->[com.google.firebase:firebase-common:20.1.1] /home/duja/.gradle/caches/transforms-3/d06171a28db49837b42f6c3db3002b54/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+57            android:name="com.google.firebase.provider.FirebaseInitProvider"
+57-->[com.google.firebase:firebase-common:20.1.1] /home/duja/.gradle/caches/transforms-3/d06171a28db49837b42f6c3db3002b54/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+58            android:authorities="com.duja.waqumo.firebaseinitprovider"
+58-->[com.google.firebase:firebase-common:20.1.1] /home/duja/.gradle/caches/transforms-3/d06171a28db49837b42f6c3db3002b54/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+59            android:directBootAware="true"
+59-->[com.google.firebase:firebase-common:20.1.1] /home/duja/.gradle/caches/transforms-3/d06171a28db49837b42f6c3db3002b54/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+60            android:exported="false"
+60-->[com.google.firebase:firebase-common:20.1.1] /home/duja/.gradle/caches/transforms-3/d06171a28db49837b42f6c3db3002b54/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+61            android:initOrder="100" />
+61-->[com.google.firebase:firebase-common:20.1.1] /home/duja/.gradle/caches/transforms-3/d06171a28db49837b42f6c3db3002b54/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+62
+63        <activity
+63-->[com.google.android.gms:play-services-base:18.0.1] /home/duja/.gradle/caches/transforms-3/43a61542070d926941f931fa65baa73e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+64            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+64-->[com.google.android.gms:play-services-base:18.0.1] /home/duja/.gradle/caches/transforms-3/43a61542070d926941f931fa65baa73e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+65            android:exported="false"
+65-->[com.google.android.gms:play-services-base:18.0.1] /home/duja/.gradle/caches/transforms-3/43a61542070d926941f931fa65baa73e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+66            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+66-->[com.google.android.gms:play-services-base:18.0.1] /home/duja/.gradle/caches/transforms-3/43a61542070d926941f931fa65baa73e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+67
+68        <receiver
+68-->[com.google.android.gms:play-services-measurement:21.0.0] /home/duja/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:29:9-33:20
+69            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+69-->[com.google.android.gms:play-services-measurement:21.0.0] /home/duja/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:30:13-85
+70            android:enabled="true"
+70-->[com.google.android.gms:play-services-measurement:21.0.0] /home/duja/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:31:13-35
+71            android:exported="false" >
+71-->[com.google.android.gms:play-services-measurement:21.0.0] /home/duja/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:32:13-37
+72        </receiver>
+73
+74        <service
+74-->[com.google.android.gms:play-services-measurement:21.0.0] /home/duja/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:35:9-38:40
+75            android:name="com.google.android.gms.measurement.AppMeasurementService"
+75-->[com.google.android.gms:play-services-measurement:21.0.0] /home/duja/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:36:13-84
+76            android:enabled="true"
+76-->[com.google.android.gms:play-services-measurement:21.0.0] /home/duja/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:37:13-35
+77            android:exported="false" />
+77-->[com.google.android.gms:play-services-measurement:21.0.0] /home/duja/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:38:13-37
+78        <service
+78-->[com.google.android.gms:play-services-measurement:21.0.0] /home/duja/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:39:9-43:72
+79            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+79-->[com.google.android.gms:play-services-measurement:21.0.0] /home/duja/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:40:13-87
+80            android:enabled="true"
+80-->[com.google.android.gms:play-services-measurement:21.0.0] /home/duja/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:41:13-35
+81            android:exported="false"
+81-->[com.google.android.gms:play-services-measurement:21.0.0] /home/duja/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:42:13-37
+82            android:permission="android.permission.BIND_JOB_SERVICE" />
+82-->[com.google.android.gms:play-services-measurement:21.0.0] /home/duja/.gradle/caches/transforms-3/25c0d706dbe3b161cf68dbce23127fd2/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:43:13-69
+83
+84        <meta-data
+84-->[com.google.android.gms:play-services-basement:18.0.0] /home/duja/.gradle/caches/transforms-3/d54d5a4448cd99be44c2671f0beb7e83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+85            android:name="com.google.android.gms.version"
+85-->[com.google.android.gms:play-services-basement:18.0.0] /home/duja/.gradle/caches/transforms-3/d54d5a4448cd99be44c2671f0beb7e83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+86            android:value="@integer/google_play_services_version" />
+86-->[com.google.android.gms:play-services-basement:18.0.0] /home/duja/.gradle/caches/transforms-3/d54d5a4448cd99be44c2671f0beb7e83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+87
+88        <provider
+88-->[androidx.emoji2:emoji2:1.0.0] /home/duja/.gradle/caches/transforms-3/92708834b1c092ddf07d1634926df188/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+89            android:name="androidx.startup.InitializationProvider"
+89-->[androidx.emoji2:emoji2:1.0.0] /home/duja/.gradle/caches/transforms-3/92708834b1c092ddf07d1634926df188/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+90            android:authorities="com.duja.waqumo.androidx-startup"
+90-->[androidx.emoji2:emoji2:1.0.0] /home/duja/.gradle/caches/transforms-3/92708834b1c092ddf07d1634926df188/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+91            android:exported="false" >
+91-->[androidx.emoji2:emoji2:1.0.0] /home/duja/.gradle/caches/transforms-3/92708834b1c092ddf07d1634926df188/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+92            <meta-data
+92-->[androidx.emoji2:emoji2:1.0.0] /home/duja/.gradle/caches/transforms-3/92708834b1c092ddf07d1634926df188/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+93                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+93-->[androidx.emoji2:emoji2:1.0.0] /home/duja/.gradle/caches/transforms-3/92708834b1c092ddf07d1634926df188/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+94                android:value="androidx.startup" />
+94-->[androidx.emoji2:emoji2:1.0.0] /home/duja/.gradle/caches/transforms-3/92708834b1c092ddf07d1634926df188/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+95            <meta-data
+95-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/duja/.gradle/caches/transforms-3/d9db6b6f9ce68129424c2ebe8909f584/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+96                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+96-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/duja/.gradle/caches/transforms-3/d9db6b6f9ce68129424c2ebe8909f584/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+97                android:value="androidx.startup" />
+97-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/duja/.gradle/caches/transforms-3/d9db6b6f9ce68129424c2ebe8909f584/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+98        </provider>
+99    </application>
+100
+101</manifest>
