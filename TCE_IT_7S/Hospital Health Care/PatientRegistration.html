@@ -90,7 +90,10 @@
                 </div>
                 <div class="field input">
                   <label>Stay</label>
-                  <input type="number" name="p_stay" id="p_stay" placeholder="Enter Stay" required>
+                  <div class="name-details">
+                  <input type="submit" name="submit" value="Predict the Stay" onclick="PredictStay();">
+                  <input type="text" name="p_stay" id="p_stay" placeholder="Enter Stay">
+                </div>
                 </div>
                 <div class="field button">
                   <input type="submit" name="submit" value="Submit Details" onclick="RegisterPatientTreatment();">
