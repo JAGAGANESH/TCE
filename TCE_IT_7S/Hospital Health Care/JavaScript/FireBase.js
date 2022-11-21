@@ -120,10 +120,11 @@ function RegisterPatient() {
 }
 function RegisterPatientTreatment() {
     var problem = document.getElementById("p_problem").value;
-    var treatment = document.getElementById("p_treat").value;
+//     var treatment = document.getElementById("p_treat").value;
+    var dept = document.getElementById("p_dept").value;
     var date = document.getElementById("p_date").value;
     var ward = document.getElementById("p_ward").value;
-    var bed = document.getElementById("p_bed").value;
+    var bed = document.getElementById("p_bed-g").value;
     var atype = document.getElementById("p_atype").value;
     var illness = document.getElementById("p_illness").value;
     var stay = document.getElementById("p_stay").value;
@@ -140,8 +141,9 @@ function RegisterPatientTreatment() {
     .then((then) => {
         firebase.database().ref().child("HHC Users/Patients/"+PatientId+"/Treatments/"+PatientAdmissionNumber).set({
             Problem: problem,
-            Treatment: treatment,
+            Department: dept,
             AdmissionDate: date,
+	    BedGrade: bed,
             WardType: ward,
             AdmissionType: atype,
             SeverityOfIllness: illness,
