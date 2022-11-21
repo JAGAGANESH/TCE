@@ -22,9 +22,19 @@
                   <label>Problem</label>
                   <input type="text" name="p_problem" id="p_problem" placeholder="Enter Problem" required>
                 </div>
-                <div class="field input">
+<!--                 <div class="field input">
                   <label>Treatment</label>
                   <input type="text" name="p_treat" id="p_treat" placeholder="Enter Traeatment" required>
+                </div> -->
+                <div class="field input">
+                  <label>Department</label>
+                  <select name="p_dept" id="p_dept">
+                    <option value="none" selected disabled hidden>Department</option>
+                    <option value="Radiotherapy">Radiotherapy</option>
+                    <option value="Anesthesia">Anesthesia</option>
+                    <option value="Gynecology">Gynecology</option>
+                    <option value="TB & Chest Disease">TB & Chest Disease</option>
+                  </select>
                 </div>
                 <div class="field input">
                   <label>Admission Date</label>
@@ -42,10 +52,24 @@
                     <option value="F">F</option>
                   </select>
                 </div>
-                <div class="field input">
-                  <label>Bed Number</label>
-                  <input type="number" name="p_bed" id="p_bed" placeholder="Enter Bed Number" required>
-                </div>
+                <!-- <div class="name-details"> -->
+                  <div class="field input">
+                    <label>Bed Grade</label>
+                    <select name="p_bed-g" id="p_bed-g">
+                      <option value="none" selected disabled hidden>Ward</option>
+                      <option value="A">A</option>
+                      <option value="B">B</option>
+                      <option value="C">C</option>
+                      <option value="D">D</option>
+                      <option value="E">E</option>
+                      <option value="F">F</option>
+                    </select>
+                  </div>
+                  <!-- <div class="field input">
+                    <label>Bed Number</label>
+                    <input type="text" name="p_bed-n" id="p_bed-n" placeholder="Bed Number" required>
+                  </div>  -->
+                <!-- </div> -->
                 <div class="field input">
                   <label>Admission Type</label>
                   <select name="p_atype" id="p_atype">
