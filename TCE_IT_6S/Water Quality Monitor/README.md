@@ -7,7 +7,7 @@ tank for water purity and also can’t be done completely. So, a problem
 arises on verifying water purity and its quality management.
 
 ## Implementation
-<p align="center"><img src="Photos/Implementation.png"></p>
+<p align="center"><img src="Photos/implementation.png"></p>
 
 ### Tools
 <h3 style="font-size: 50px;">&raquo;  Hardware</h3>
