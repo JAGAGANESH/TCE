@@ -1,6 +1,0 @@
-Go to phythonanywhere -> Create an Bigineer Account -> 
-Go to Web in Phythonanywhere -> Click Add a new Web App -> click next -> 
-Click Flask -> Click Python 3.8 -> click Next
-GO to Files in PhythonAnyWhere -> click mysite/ in Directories -> open flask_app.py ->Edit Python Code -> Run the File
-And Run the App URL
-
