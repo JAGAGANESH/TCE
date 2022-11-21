@@ -34,4 +34,4 @@ arises on verifying water purity and its quality management.
  </p>
  
 ## About Us
-This project was done by <b>JagaGanesh D</b>, <b>Eshwaran</b>, <b>Lokkeswaran S</b> and <b>Velmurugan M</b>. We are students of IT Department from Thiagarajar College of Engineering, Madurai. This project inspired by Mobile Application Development and Internet of Things the courses belongs to Third Year Sixth Semester of IT department (January 2022 - May 2022).
+This project was done by <b>JagaGanesh D</b>, <b>Eshwaran ABR</b>, <b>Lokkeswaran S</b> and <b>Velmurugan M</b>. We are students of IT Department from Thiagarajar College of Engineering, Madurai. This project inspired by Mobile Application Development and Internet of Things the courses belongs to Third Year Sixth Semester of IT department (January 2022 - May 2022).
