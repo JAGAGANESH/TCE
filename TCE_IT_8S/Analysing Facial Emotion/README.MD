@@ -7,4 +7,4 @@ https://jagaganesh.github.io/TCE/TCE_IT_7S/Hospital%20Health%20Care/Login.html
 
 ## About Us
 
-This project was done by <b>JagaGanesh D</b>, <b>Lokkeswaran S</b> and <b>Sanjay M</b>. We are students of IT Department from Thiagarajar College of Engineering, Madurai. This project inspired by Final Year Project the courses belongs to Fourth Year Eight Semester of IT department (Janvary 2023 - April 2023).
+This project was done by <b>JagaGanesh D</b>, <b>Lokkeswaran S</b> and <b>Sanjay M</b>. We are students of IT Department from Thiagarajar College of Engineering, Madurai. This project inspired by Final Year Project the courses belongs to Fourth Year Eight Semester of IT department (January 2023 - April 2023).
